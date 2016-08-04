@@ -1,0 +1,1445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BusyIndicatorLoggingIn" xml:space="preserve">
+    <value>正在登录...</value>
+    <comment>Displayed while a LoginOperation is taking progress</comment>
+  </data>
+  <data name="CancelAccountConfirm" xml:space="preserve">
+    <value>下面将注销选中的帐号，成功后该帐号将无法登录本系统！是否继续？</value>
+  </data>
+  <data name="CanNotDeleteLoginStaff" xml:space="preserve">
+    <value>不能删除当前登录员工！</value>
+  </data>
+  <data name="DataAccessComponentException" xml:space="preserve">
+    <value>数据存取组件异常！</value>
+  </data>
+  <data name="DeleteOrganConfirm" xml:space="preserve">
+    <value>下面将删除选中的组织部门及其所有下级组织部门，是否继续？</value>
+  </data>
+  <data name="DeletePositionConfirm" xml:space="preserve">
+    <value>下面将删除选中的岗位，是否继续？</value>
+  </data>
+  <data name="DeleteStaffConfirm" xml:space="preserve">
+    <value>下面将删除选中的员工，是否继续？</value>
+  </data>
+  <data name="EmptyGrid" xml:space="preserve">
+    <value>无任何记录</value>
+  </data>
+  <data name="ErrorWindowErrorDetails" xml:space="preserve">
+    <value>错误详细信息</value>
+  </data>
+  <data name="ErrorWindowGenericError" xml:space="preserve">
+    <value>发生未知错误。请与软件供应商联系以获取帮助。</value>
+  </data>
+  <data name="ErrorWindowTitle" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="FillSpace" xml:space="preserve">
+    <value>　</value>
+    <comment>2个全角空格</comment>
+  </data>
+  <data name="LoadConnectionStringFailed" xml:space="preserve">
+    <value>读取数据库连接字符串失败！</value>
+  </data>
+  <data name="NotSelectedOrgan" xml:space="preserve">
+    <value>未选择组织部门！</value>
+  </data>
+  <data name="NotSelectedPosition" xml:space="preserve">
+    <value>未选择岗位！</value>
+  </data>
+  <data name="NotSelectedStaff" xml:space="preserve">
+    <value>未选择员工！</value>
+  </data>
+  <data name="PasswordIsIncorrect" xml:space="preserve">
+    <value>登录密码不正确！</value>
+  </data>
+  <data name="Philosophy" xml:space="preserve">
+    <value>立安思危 创优求存</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>请稍候...</value>
+  </data>
+  <data name="SaveSucceedNextAddNew" xml:space="preserve">
+    <value>保存成功，继续添加下一个！</value>
+  </data>
+  <data name="SessionExpired" xml:space="preserve">
+    <value>由于长时间不用数据已失效，请关闭重新登录！</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>您好！{0} {1}</value>
+  </data>
+  <data name="WrongIndentifyCode" xml:space="preserve">
+    <value>验证码不正确！</value>
+  </data>
+  <data name="CanNotCancelLoginAccount" xml:space="preserve">
+    <value>不能注销当前登录帐号！</value>
+  </data>
+  <data name="NotSelectedPermissionGroup" xml:space="preserve">
+    <value>未选择权限组！</value>
+  </data>
+  <data name="DeletePermissionGroupConfirm" xml:space="preserve">
+    <value>下面将删除选中的权限组，是否继续？</value>
+  </data>
+  <data name="SaveAccountPermissionConfirm" xml:space="preserve">
+    <value>当前帐号权限发生改变，是否保存？</value>
+  </data>
+  <data name="SaveSucceed" xml:space="preserve">
+    <value>保存成功！</value>
+  </data>
+  <data name="CreateOrganChartFailed" xml:space="preserve">
+    <value>由于无法连接Google API，所以组织结构图显示失败！</value>
+  </data>
+  <data name="NotSelectedAccount" xml:space="preserve">
+    <value>未选择帐号！</value>
+  </data>
+  <data name="DeleteAccountConfirm" xml:space="preserve">
+    <value>下面将删除选中的帐号，成功后该帐号将无法登录本系统！是否继续？</value>
+  </data>
+  <data name="CanNotDeleteLoginAccount" xml:space="preserve">
+    <value>不能删除当前登录帐号！</value>
+  </data>
+  <data name="PasswordConfirmNotMatch" xml:space="preserve">
+    <value>新密码与确认密码不一致！</value>
+  </data>
+  <data name="OldPasswordIsIncorrect" xml:space="preserve">
+    <value>原密码不正确！</value>
+  </data>
+  <data name="NotEnterContactName" xml:space="preserve">
+    <value>未输入联系人姓名！</value>
+  </data>
+  <data name="NotSelectedCustomer" xml:space="preserve">
+    <value>未选择客户！</value>
+  </data>
+  <data name="NotEnterAccountName" xml:space="preserve">
+    <value>未输入帐号名称！</value>
+  </data>
+  <data name="DeleteCountryConfirm" xml:space="preserve">
+    <value>下面将删除选中的国家，是否继续？</value>
+  </data>
+  <data name="NotSelectedCountry" xml:space="preserve">
+    <value>未选择国家！</value>
+  </data>
+  <data name="DeleteCityConfirm" xml:space="preserve">
+    <value>下面将删除选中的市/县，是否继续？</value>
+  </data>
+  <data name="DeleteGoodsTypeConfirm" xml:space="preserve">
+    <value>下面将删除选中的货物类别，是否继续？</value>
+  </data>
+  <data name="DeleteProvinceConfirm" xml:space="preserve">
+    <value>下面将删除选中的省/州/区/直辖市，是否继续？</value>
+  </data>
+  <data name="NotSelectedCity" xml:space="preserve">
+    <value>未选择市/县！</value>
+  </data>
+  <data name="NotSelectedGoodsType" xml:space="preserve">
+    <value>未选择货物类别！</value>
+  </data>
+  <data name="NotSelectedProvince" xml:space="preserve">
+    <value>未选择省/州/区/直辖市！</value>
+  </data>
+  <data name="DeleteCustomerConfirm" xml:space="preserve">
+    <value>下面将删除选中的客户，是否继续？</value>
+  </data>
+  <data name="NotValidPostalCode" xml:space="preserve">
+    <value>不是有效的邮政编码！</value>
+  </data>
+  <data name="NotValidQQ" xml:space="preserve">
+    <value>不是有效的QQ号码！</value>
+  </data>
+  <data name="NotValidCurrency" xml:space="preserve">
+    <value>不是有效的金额数字！</value>
+  </data>
+  <data name="NotValidEmail" xml:space="preserve">
+    <value>不是有效的电子邮件地址！</value>
+  </data>
+  <data name="NotValidMobileTel" xml:space="preserve">
+    <value>不是有效的手机号码！</value>
+  </data>
+  <data name="NotValidPassword" xml:space="preserve">
+    <value>不是有效的密码！应以字母开头，长度在6~18之间，只能包含字符、数字和下划线</value>
+  </data>
+  <data name="NotValidTel" xml:space="preserve">
+    <value>不是有效的电话号码！如0511-87888822</value>
+  </data>
+  <data name="NotValidTelExt" xml:space="preserve">
+    <value>不是有效的电话分机号！不能超过4位</value>
+  </data>
+  <data name="NotEnterCountryName" xml:space="preserve">
+    <value>未输入国家名称！</value>
+  </data>
+  <data name="NotEnterFamilyName" xml:space="preserve">
+    <value>未输入姓氏！</value>
+  </data>
+  <data name="NotEnterMobileTel" xml:space="preserve">
+    <value>未输入手机号码！</value>
+  </data>
+  <data name="NotEnterOrganName" xml:space="preserve">
+    <value>未输入组织部门名称！</value>
+  </data>
+  <data name="NotEnterPositionName" xml:space="preserve">
+    <value>未输入岗位名称！</value>
+  </data>
+  <data name="NotEnterProvinceName" xml:space="preserve">
+    <value>未输入省/州/区/直辖市名称！</value>
+  </data>
+  <data name="NotEnterExcelFileName" xml:space="preserve">
+    <value>未输入Excel文件！</value>
+  </data>
+  <data name="NotValidExcelFile" xml:space="preserve">
+    <value>不是有效的Excel文件！</value>
+  </data>
+  <data name="NotSelectedCustomerTransportPrice" xml:space="preserve">
+    <value>未选择客户结算价格记录！</value>
+  </data>
+  <data name="LoadSelectedCustomerTransportPriceFailed" xml:space="preserve">
+    <value>读取当前选中客户结算价格数据失败！</value>
+  </data>
+  <data name="DeleteCustomerTransportPriceConfirm" xml:space="preserve">
+    <value>下面将删除选中的客户结算价格记录，是否继续？</value>
+  </data>
+  <data name="NotSelectedGoods" xml:space="preserve">
+    <value>未选择货物！</value>
+  </data>
+  <data name="DeleteGoodsConfirm" xml:space="preserve">
+    <value>下面将删除选中的货物，是否继续？</value>
+  </data>
+  <data name="NotValidNumeric" xml:space="preserve">
+    <value>不是有效的数字！</value>
+  </data>
+  <data name="PieceWeightNotValidNumeric" xml:space="preserve">
+    <value>件重不是有效的数字！</value>
+  </data>
+  <data name="NotValidTypeId" xml:space="preserve">
+    <value>类别编码不是有效的数字！{0}行</value>
+  </data>
+  <data name="NotValidPieceWeight" xml:space="preserve">
+    <value>件重不是有效的数字！{0}行</value>
+  </data>
+  <data name="ImportFailed" xml:space="preserve">
+    <value>{0}{1}行</value>
+  </data>
+  <data name="DeleteWarehouseConfirm" xml:space="preserve">
+    <value>下面将删除选中的仓库，是否继续？</value>
+  </data>
+  <data name="NotSelectedWarehouse" xml:space="preserve">
+    <value>未选择仓库！</value>
+  </data>
+  <data name="DeleteCarrierConfirm" xml:space="preserve">
+    <value>下面将删除选中的承运单位，是否继续？</value>
+  </data>
+  <data name="NotSelectedCarrier" xml:space="preserve">
+    <value>未选择承运单位！</value>
+  </data>
+  <data name="NotValidInteger" xml:space="preserve">
+    <value>不是有效的整数！</value>
+  </data>
+  <data name="DeleteCarrierTransportPriceConfirm" xml:space="preserve">
+    <value>下面将删除选中的承运单位承运价格记录，是否继续？</value>
+  </data>
+  <data name="NotSelectedCarrierTransportPrice" xml:space="preserve">
+    <value>未选择承运单位承运价格记录！</value>
+  </data>
+  <data name="DeleteCarrierCarConfirm" xml:space="preserve">
+    <value>下面将删除选中的承运单位车辆记录，是否继续？</value>
+  </data>
+  <data name="NotSelectedCarrierCar" xml:space="preserve">
+    <value>未选择承运单位车辆记录！</value>
+  </data>
+  <data name="DeleteCarrierDriverConfirm" xml:space="preserve">
+    <value>下面将删除选中的承运单位驾驶员记录，是否继续？</value>
+  </data>
+  <data name="NotSelectedCarrierDriver" xml:space="preserve">
+    <value>未选择承运单位驾驶员记录！</value>
+  </data>
+  <data name="DeleteTransportLimitedPriceConfirm" xml:space="preserve">
+    <value>下面将删除选中的运费限价记录，是否继续？</value>
+  </data>
+  <data name="NotSelectedTransportLimitedPrice" xml:space="preserve">
+    <value>未选择运费限价记录！</value>
+  </data>
+  <data name="MaxTunnagesCanNotLessThanMinTunnages" xml:space="preserve">
+    <value>吨数上限不能小于等于吨数下限！</value>
+  </data>
+  <data name="TransportPriceCanNotEqualZero" xml:space="preserve">
+    <value>单价不能等于0！</value>
+  </data>
+  <data name="MaxTunnagesNotGreaterThanZero" xml:space="preserve">
+    <value>吨数上限必须大于0！</value>
+  </data>
+  <data name="MinTunnagesNotGreaterThanZero" xml:space="preserve">
+    <value>吨数下限必须大于0！</value>
+  </data>
+  <data name="TransportPriceNotGreaterThanZero" xml:space="preserve">
+    <value>单价必须大于0！</value>
+  </data>
+  <data name="LoadingForceFeePriceNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>上力支费价格必须大于或等于0！</value>
+  </data>
+  <data name="StorageFeePriceNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>仓储费价格必须大于或等于0！</value>
+  </data>
+  <data name="UnloadingForceFeePriceNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>下力支费价格必须大于或等于0！</value>
+  </data>
+  <data name="CustomerTransportPriceIsExists" xml:space="preserve">
+    <value>客户结算价格记录重复或重叠！</value>
+  </data>
+  <data name="CarryingCapacityNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>载重必须大于或等于0！</value>
+  </data>
+  <data name="CarrierCarNoIsExists" xml:space="preserve">
+    <value>承运单位车号重复！</value>
+  </data>
+  <data name="CarrierDriveLicenseNoIsExists" xml:space="preserve">
+    <value>承运单位驾驶证号重复！</value>
+  </data>
+  <data name="CarrierTransportPriceIsExists" xml:space="preserve">
+    <value>承运单位承运价格记录重复或重叠！</value>
+  </data>
+  <data name="NoPermission" xml:space="preserve">
+    <value>无权操作！</value>
+  </data>
+  <data name="PackagesNotGreaterThanZero" xml:space="preserve">
+    <value>件数必须大于0！</value>
+  </data>
+  <data name="PilesNotGreaterThanZero" xml:space="preserve">
+    <value>垛数必须大于0！</value>
+  </data>
+  <data name="TunnagesNotGreaterThanZero" xml:space="preserve">
+    <value>吨数必须大于0！</value>
+  </data>
+  <data name="NotValidDate" xml:space="preserve">
+    <value>不是有效的日期格式！</value>
+  </data>
+  <data name="CustomerNameNotExists" xml:space="preserve">
+    <value>客户名称不存在！</value>
+  </data>
+  <data name="NotEnterCustomerName" xml:space="preserve">
+    <value>未输入客户名称！</value>
+  </data>
+  <data name="GoodsNoNotExists" xml:space="preserve">
+    <value>货物编号不存在！</value>
+  </data>
+  <data name="PieceWeightNotGreaterThanZero" xml:space="preserve">
+    <value>件重必须大于0！</value>
+  </data>
+  <data name="GoodsIsExists" xml:space="preserve">
+    <value>货物信息重复！</value>
+  </data>
+  <data name="NotEnterCarrierInfoWhenPickUpSelf" xml:space="preserve">
+    <value>自提情况下未输入车辆和驾驶员信息！</value>
+  </data>
+  <data name="NotEnterGoods" xml:space="preserve">
+    <value>未输入货物！</value>
+  </data>
+  <data name="ConsignedDeliveryNoNotExists" xml:space="preserve">
+    <value>寄库交货单号不存在！</value>
+  </data>
+  <data name="NotEnterPackages" xml:space="preserve">
+    <value>未输入件数！</value>
+  </data>
+  <data name="NotEnterBatchNo" xml:space="preserve">
+    <value>未输入批次号！</value>
+  </data>
+  <data name="NotEnterGoodsNo" xml:space="preserve">
+    <value>未输入货物编号！</value>
+  </data>
+  <data name="EnterPackagesGreaterThanStocks" xml:space="preserve">
+    <value>输入件数大于库存数！</value>
+  </data>
+  <data name="NotEnterWarehouse" xml:space="preserve">
+    <value>未输入仓库！</value>
+  </data>
+  <data name="NotSelectedPlan" xml:space="preserve">
+    <value>未选择计划！</value>
+  </data>
+  <data name="DeletePlanConfirm" xml:space="preserve">
+    <value>下面将删除选中的计划，是否继续？</value>
+  </data>
+  <data name="SubmitPlanConfirm" xml:space="preserve">
+    <value>下面将提交选中的计划。提交成功后，计划将不能再修改！是否继续？</value>
+  </data>
+  <data name="StopStockNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>停止发货库存必须大于或等于0！</value>
+  </data>
+  <data name="WarningStockNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>提醒结算库存必须大于或等于0！</value>
+  </data>
+  <data name="GrossWeightRateNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>毛重率必须大于或等于0！</value>
+  </data>
+  <data name="TenThousandsNotGreaterThanZero" xml:space="preserve">
+    <value>万只必须大于0！</value>
+  </data>
+  <data name="BoxesNotGreaterThanZero" xml:space="preserve">
+    <value>箱数必须大于0！</value>
+  </data>
+  <data name="NotEnterDeliveryNo" xml:space="preserve">
+    <value>未输入交货单号！</value>
+  </data>
+  <data name="IllegalOperator" xml:space="preserve">
+    <value>非法的操作符！</value>
+  </data>
+  <data name="StepNumNotGreaterThanZero" xml:space="preserve">
+    <value>步骤序号必须大于0！</value>
+  </data>
+  <data name="ConditionExpression" xml:space="preserve">
+    <value>条件组合表达式如：({1} or {2}) and {3}，其中{1}、{2}、{3}代表第1个、第2个、第3个条件</value>
+  </data>
+  <data name="DeleteApproveFlowStepConditionConfirm" xml:space="preserve">
+    <value>下面将删除选中的处理条件，是否继续？</value>
+  </data>
+  <data name="NotSelectedApproveFlowStepCondition" xml:space="preserve">
+    <value>未选择处理条件！</value>
+  </data>
+  <data name="ApproveFlowStepConditionIsExists" xml:space="preserve">
+    <value>处理条件重复！</value>
+  </data>
+  <data name="NotSelectedApproveFlowStep" xml:space="preserve">
+    <value>未选择审批步骤！</value>
+  </data>
+  <data name="DeleteApproveFlowStepConfirm" xml:space="preserve">
+    <value>下面将删除选中的审批步骤，是否继续？</value>
+  </data>
+  <data name="CanNotEnterConditionExpressionWhenNoOrOneCondition" xml:space="preserve">
+    <value>当条件只有一个或没有条件时不能输入组合表达式！</value>
+  </data>
+  <data name="NotEnterConditionExpressionWhenMultiConditions" xml:space="preserve">
+    <value>当条件有多个时必须输入组合表达式！</value>
+  </data>
+  <data name="NotEnterDisagreeOpinion" xml:space="preserve">
+    <value>未输入不同意意见！</value>
+  </data>
+  <data name="ConvertCoefficientNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>折算系数必须大于或等于0！</value>
+  </data>
+  <data name="ActualTransportPriceNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>实际单价必须大于或等于0！</value>
+  </data>
+  <data name="TransportChargesNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>运费必须大于或等于0！</value>
+  </data>
+  <data name="AgreementTransportPriceNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>协议单价必须大于或等于0！</value>
+  </data>
+  <data name="CarryingCapacityNotGreaterThanZero" xml:space="preserve">
+    <value>载重必须大于0！</value>
+  </data>
+  <data name="ActualPackagesCanNotGreaterThanPackages" xml:space="preserve">
+    <value>实发件数不能大于件数！</value>
+  </data>
+  <data name="ActualPackagesNotValidNumeric" xml:space="preserve">
+    <value>实发件数不是有效的数字！</value>
+  </data>
+  <data name="NotEnterActualPackages" xml:space="preserve">
+    <value>未输入实发件数！</value>
+  </data>
+  <data name="TotalTunnagesCanNotGreaterThanCarryingCapacity" xml:space="preserve">
+    <value>总吨数不能大于车辆载重！</value>
+  </data>
+  <data name="PackagesNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>件数必须大于或等于0！</value>
+  </data>
+  <data name="PieceWeightNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>件重必须大于或等于0！</value>
+  </data>
+  <data name="PilesNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>垛数必须大于或等于0！</value>
+  </data>
+  <data name="TenThousandsNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>万只必须大于或等于0！</value>
+  </data>
+  <data name="TunnagesNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>吨数必须大于或等于0！</value>
+  </data>
+  <data name="CancelPlanConfirm" xml:space="preserve">
+    <value>下面将撤消选中的计划，是否继续？</value>
+  </data>
+  <data name="ActualPilesCanNotGreaterThanPiles" xml:space="preserve">
+    <value>实发垛数不能大于垛数！</value>
+  </data>
+  <data name="ActualPilesNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>实发垛数必须大于或等于0！</value>
+  </data>
+  <data name="ActualPilesNotValidNumeric" xml:space="preserve">
+    <value>实发垛数不是有效的数字！</value>
+  </data>
+  <data name="ActualTenThousandsCanNotGreaterThanTenThousands" xml:space="preserve">
+    <value>实发万只不能大于万只！</value>
+  </data>
+  <data name="ActualTenThousandsNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>实发万只必须大于或等于0！</value>
+  </data>
+  <data name="ActualTenThousandsNotValidNumeric" xml:space="preserve">
+    <value>实发万只不是有效的数字！</value>
+  </data>
+  <data name="NotEnterActualPiles" xml:space="preserve">
+    <value>未输入实发垛数！</value>
+  </data>
+  <data name="NotEnterActualTenThousands" xml:space="preserve">
+    <value>未输入实发万只！</value>
+  </data>
+  <data name="ActualPackagesNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>实发件数必须大于或等于0！</value>
+  </data>
+  <data name="CanNotTokanizeExpression" xml:space="preserve">
+    <value>无法解析表达式中的符号和标记！</value>
+  </data>
+  <data name="NotValidSettlementExpressionVariable" xml:space="preserve">
+    <value>结算公式的变量只能是“公里数”、“吨数”、“垛数”和“单价”4种！</value>
+  </data>
+  <data name="DeleteCarrierSettlementExpressionConfirm" xml:space="preserve">
+    <value>下面将删除选中的承运单位结算公式记录，是否继续？</value>
+  </data>
+  <data name="NotSelectedCarrierSettlementExpression" xml:space="preserve">
+    <value>未选择承运单位结算公式记录！</value>
+  </data>
+  <data name="CarrierSettlementExpressionIsExists" xml:space="preserve">
+    <value>承运单位结算公式重复！</value>
+  </data>
+  <data name="KMNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>公里数必须大于或等于0！</value>
+  </data>
+  <data name="NotValidTransportChargeExpressionVariable" xml:space="preserve">
+    <value>运费公式的变量只能是“公里数”、“吨数”、“垛数”和“单价”4种！</value>
+  </data>
+  <data name="NotValidTransportPriceExpressionVariable" xml:space="preserve">
+    <value>单价公式的变量只能是“公里数”、“吨数”、“垛数”和“运费”4种！</value>
+  </data>
+  <data name="ActualTransportPriceNotGreaterThanZero" xml:space="preserve">
+    <value>实际单价必须大于0！</value>
+  </data>
+  <data name="NotEnterTransportChargeExpression" xml:space="preserve">
+    <value>未输入运费公式！</value>
+  </data>
+  <data name="NotEnterTransportPriceExpression" xml:space="preserve">
+    <value>未输入单价公式！</value>
+  </data>
+  <data name="TransportChargesNotGreaterThanZero" xml:space="preserve">
+    <value>运费必须大于0！</value>
+  </data>
+  <data name="LoadDeliverPlanFailed" xml:space="preserve">
+    <value>读取发货计划数据失败！</value>
+  </data>
+  <data name="KMNotGreaterThanZero" xml:space="preserve">
+    <value>公里数必须大于0！</value>
+  </data>
+  <data name="NotEnterActualBoxes" xml:space="preserve">
+    <value>未输入实发箱数！</value>
+  </data>
+  <data name="ActualBoxesCanNotGreaterThanBoxes" xml:space="preserve">
+    <value>实发箱数不能大于箱数！</value>
+  </data>
+  <data name="ActualBoxesNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>实发箱数必须大于或等于0！</value>
+  </data>
+  <data name="ActualBoxesNotValidNumeric" xml:space="preserve">
+    <value>实发箱数不是有效的数字！</value>
+  </data>
+  <data name="ActualTunnagesCanNotGreaterThanTunnages" xml:space="preserve">
+    <value>实发吨数不能大于吨数！</value>
+  </data>
+  <data name="ActualTunnagesNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>实发吨数必须大于或等于0！</value>
+  </data>
+  <data name="ActualTunnagesNotValidNumeric" xml:space="preserve">
+    <value>实发吨数不是有效的数字！</value>
+  </data>
+  <data name="AutoAddPickUpSelfDeliverPlansConfirm" xml:space="preserve">
+    <value>该车号存在客户自提的待调度计划，是否自动添加？</value>
+  </data>
+  <data name="DeleteDispatchBillConfirm" xml:space="preserve">
+    <value>下面将删除选中的调度单，是否继续？</value>
+  </data>
+  <data name="NotSelectedDispatchBill" xml:space="preserve">
+    <value>未选择调度单！</value>
+  </data>
+  <data name="NotEnterCompleteAndCorrectCarInfo" xml:space="preserve">
+    <value>车辆数据输入不完整或不正确！</value>
+  </data>
+  <data name="NotEnterCompleteAndCorrectTransportChargeInfo" xml:space="preserve">
+    <value>运费数据输入不完整或不正确！</value>
+  </data>
+  <data name="CanNotModifyCarNo" xml:space="preserve">
+    <value>不能修改车号，因为车号{0}已有调度单。若需要将当前调度货物转移到车号{0}上，请直接在它的调度单上进行添加操作。</value>
+  </data>
+  <data name="DispatchBillHadChanged" xml:space="preserve">
+    <value>调度单数据发生改变，必须先点击保存按钮！</value>
+  </data>
+  <data name="NotAddDispatchDeliverPlan" xml:space="preserve">
+    <value>未添加待调度计划！</value>
+  </data>
+  <data name="DeleteDispatchedPlanConfirm" xml:space="preserve">
+    <value>下面将删除选中的已配载计划，是否继续？</value>
+  </data>
+  <data name="NotSelectedDispatchedPlan" xml:space="preserve">
+    <value>未选择配载计划！</value>
+  </data>
+  <data name="SubmitDispatchBillConfirm" xml:space="preserve">
+    <value>下面将提交选中的调度单。是否继续？</value>
+  </data>
+  <data name="RedispatchBillConfirm" xml:space="preserve">
+    <value>下面将选中出仓单所在的整个调度单退回重新调度。是否继续？</value>
+  </data>
+  <data name="NotSelectedShipmentBill" xml:space="preserve">
+    <value>未选择出仓单！</value>
+  </data>
+  <data name="PackagesNotValidNumeric" xml:space="preserve">
+    <value>件数不是有效的数字！</value>
+  </data>
+  <data name="LocationCanNotEmpty" xml:space="preserve">
+    <value>货位不能为空！</value>
+  </data>
+  <data name="LocationIsExists" xml:space="preserve">
+    <value>货位已经存在！</value>
+  </data>
+  <data name="OnlyDeleteCopyData" xml:space="preserve">
+    <value>只能删除复制的数据！</value>
+  </data>
+  <data name="TotalPackagesNotGreaterThanZero" xml:space="preserve">
+    <value>累计件数不能小于或等于0！</value>
+  </data>
+  <data name="CancelShipmentBillConfirm" xml:space="preserve">
+    <value>下面将撤消选中的出仓单及其调度记录。是否继续？</value>
+  </data>
+  <data name="SubmitShipmentBillConfirm" xml:space="preserve">
+    <value>下面将提交当前出仓单。是否继续？</value>
+  </data>
+  <data name="ForceFeeNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>力支费必须大于或等于0！</value>
+  </data>
+  <data name="NotSupportNewOutWarehouseBill" xml:space="preserve">
+    <value>不支持新增出库单操作！</value>
+  </data>
+  <data name="StorageFeePriceNotGreaterThanZero" xml:space="preserve">
+    <value>仓储费价格必须大于0！</value>
+  </data>
+  <data name="UnloadingForceFeePriceNotGreaterThanZero" xml:space="preserve">
+    <value>下力支费价格必须大于0！</value>
+  </data>
+  <data name="LoadingForceFeePriceNotGreaterThanZero" xml:space="preserve">
+    <value>上力支费价格必须大于0！</value>
+  </data>
+  <data name="NotSelectedDeliverBill" xml:space="preserve">
+    <value>未选择送货单！</value>
+  </data>
+  <data name="CancelDeliverBillConfirm" xml:space="preserve">
+    <value>下面将撤消选中的送货单及其出仓单和调度记录。是否继续？</value>
+  </data>
+  <data name="TotalPackagesCanNotChangedWhenAllocateGoods" xml:space="preserve">
+    <value>修改划拨出库出仓单时，修改后件数必须与计划件数相等！</value>
+  </data>
+  <data name="SubmitDeliverBillConfirm" xml:space="preserve">
+    <value>下面将提交当前送货单。是否继续？</value>
+  </data>
+  <data name="NotSelectedCarNo" xml:space="preserve">
+    <value>未选择车号！</value>
+  </data>
+  <data name="DamageInfoMaxLengthIs200" xml:space="preserve">
+    <value>字段 破损情况 必须是最大长度为 200 的字符串。</value>
+  </data>
+  <data name="ReturnTimeRequired" xml:space="preserve">
+    <value>回单时间 字段是必需的。</value>
+  </data>
+  <data name="CarNoMaxLengthIs10" xml:space="preserve">
+    <value>字段 车号 必须是最大长度为 10 的字符串。</value>
+  </data>
+  <data name="DeliveryNoMaxLengthIs20" xml:space="preserve">
+    <value>字段 交货单号 必须是最大长度为 20 的字符串。</value>
+  </data>
+  <data name="PrepayTransportChargesNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>预付运费必须大于或等于0！</value>
+  </data>
+  <data name="ResidualTransportChargesNotGreaterThanZero" xml:space="preserve">
+    <value>剩余运费必须大于0！</value>
+  </data>
+  <data name="ActualTransportPriceMustbeNumber" xml:space="preserve">
+    <value>字段 实际单价 必须是一个数字。</value>
+  </data>
+  <data name="ActualTransportPriceRequired" xml:space="preserve">
+    <value>实际单价 字段是必需的。</value>
+  </data>
+  <data name="AgreementTransportPriceMustbeNumber" xml:space="preserve">
+    <value>字段 协议单价 必须是一个数字。</value>
+  </data>
+  <data name="AgreementTransportPriceRequired" xml:space="preserve">
+    <value>协议单价 字段是必需的。</value>
+  </data>
+  <data name="KMMustbeNumber" xml:space="preserve">
+    <value>字段 公里数 必须是一个数字。</value>
+  </data>
+  <data name="KMRequired" xml:space="preserve">
+    <value>公里数 字段是必需的。</value>
+  </data>
+  <data name="TransportChargeExpressionMaxLengthIs100" xml:space="preserve">
+    <value>字段 运费公式 必须是最大长度为 100 的字符串。</value>
+  </data>
+  <data name="TransportChargesMustbeNumber" xml:space="preserve">
+    <value>字段 运费 必须是一个数字。</value>
+  </data>
+  <data name="TransportChargesRequired" xml:space="preserve">
+    <value>运费 字段是必需的。</value>
+  </data>
+  <data name="TransportPriceExpressionMaxLengthIs100" xml:space="preserve">
+    <value>字段 单价公式 必须是最大长度为 100 的字符串。</value>
+  </data>
+  <data name="TransportPriceMustbeNumber" xml:space="preserve">
+    <value>字段 单价 必须是一个数字。</value>
+  </data>
+  <data name="TransportPriceNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>单价必须大于或等于0！</value>
+  </data>
+  <data name="TransportPriceRequired" xml:space="preserve">
+    <value>单价 字段是必需的。</value>
+  </data>
+  <data name="ComputeTransportPriceFailed" xml:space="preserve">
+    <value>计算单价失败！</value>
+  </data>
+  <data name="NotSelectedContract" xml:space="preserve">
+    <value>未选择合同！</value>
+  </data>
+  <data name="DeleteContractConfirm" xml:space="preserve">
+    <value>下面将删除选中的合同，是否继续？</value>
+  </data>
+  <data name="SubmitContractConfirm" xml:space="preserve">
+    <value>下面将提交当前合同。是否继续？</value>
+  </data>
+  <data name="ContractTerm1" xml:space="preserve">
+    <value>承运人须遵守下列特约事项：</value>
+  </data>
+  <data name="ContractAddress1" xml:space="preserve">
+    <value>镇江公司地址：江苏省镇江市正东路137号尚友大厦4F</value>
+  </data>
+  <data name="ContractCarrierSign1" xml:space="preserve">
+    <value>承运人签名</value>
+  </data>
+  <data name="ContractConsignorSign1" xml:space="preserve">
+    <value>托运人签名</value>
+  </data>
+  <data name="ContractTerm2" xml:space="preserve">
+    <value>1、承运人在装运以上货物时，必须当场验收包装和数量，并用干净完好的蓬布盖好货物，使货物不得露置在外。如有缺损当场指出，否则视为无缺损。</value>
+  </data>
+  <data name="ContractTerm3" xml:space="preserve">
+    <value>2、无特别约定时货物为公路运输。货物超载自负、托盘不计重。货物如有缺件，外包装损坏、受潮、破损等影响货物质量，承运人照价赔偿。</value>
+  </data>
+  <data name="ContractTerm4" xml:space="preserve">
+    <value>3、驾驶员必须服从公司现场人员管理、遵守厂内一切规章制度。按时到达卸货地点，否则赔偿一切损失。</value>
+  </data>
+  <data name="ContractTerm5" xml:space="preserve">
+    <value>4、保持信息畅通，经常与公司电话联系，以便及时了解车辆所在位置。如因信息不通造成经济损失由驾驶员承担。</value>
+  </data>
+  <data name="ContractTerm6" xml:space="preserve">
+    <value>5、回单必须于启运日起15日内返回公司，凭本合同第三联结算余款。</value>
+  </data>
+  <data name="ContractTerm7" xml:space="preserve">
+    <value>6、本合同执行过程中，发生纠纷由托运方所在地人民法院管辖。</value>
+  </data>
+  <data name="ContractTerm8" xml:space="preserve">
+    <value>7、双方必须按以上合同规定执行。</value>
+  </data>
+  <data name="ContractAddress2" xml:space="preserve">
+    <value>邮编：212001  电话：0511-84412800 84415800</value>
+  </data>
+  <data name="ContractAddress3" xml:space="preserve">
+    <value>经办人：_____________________</value>
+  </data>
+  <data name="ContractCarrierSign2" xml:space="preserve">
+    <value>(驾驶员)</value>
+  </data>
+  <data name="ContractConsignorSign2" xml:space="preserve">
+    <value>(现场人员)</value>
+  </data>
+  <data name="FieldValueNotGreaterThanZero" xml:space="preserve">
+    <value>条件值必须大于0！</value>
+  </data>
+  <data name="OverPercentageConditionNotSupportOperator" xml:space="preserve">
+    <value>超出百分比条件不支持{0}操作！</value>
+  </data>
+  <data name="NotSupportApproveCondition" xml:space="preserve">
+    <value>不支持审批条件{0}！</value>
+  </data>
+  <data name="ComputeApprovedTransportChargesFailed" xml:space="preserve">
+    <value>计算审批运费失败！</value>
+  </data>
+  <data name="ComputeApprovedTransportPriceFailed" xml:space="preserve">
+    <value>计算审批单价失败！</value>
+  </data>
+  <data name="SomeContractsNotApprove" xml:space="preserve">
+    <value>部分合同价格未审批！</value>
+  </data>
+  <data name="ApprovedTransportChargesNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>审批运费必须大于或等于0！</value>
+  </data>
+  <data name="ApprovedTransportPriceNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>审批单价必须大于或等于0！</value>
+  </data>
+  <data name="ReverseAmountMustbeNumber" xml:space="preserve">
+    <value>字段 冲帐金额 必须是一个数字。</value>
+  </data>
+  <data name="ReverseAmountNotGreaterThanZero" xml:space="preserve">
+    <value>冲帐金额必须大于0！</value>
+  </data>
+  <data name="ReverseAmountRequired" xml:space="preserve">
+    <value>冲帐金额 字段是必需的。</value>
+  </data>
+  <data name="ReverseAmountCanNotGreaterThanTransportCharges" xml:space="preserve">
+    <value>冲帐金额不能大于运费！</value>
+  </data>
+  <data name="FindReverseContractDataFaild" xml:space="preserve">
+    <value>查找冲帐合同数据失败！</value>
+  </data>
+  <data name="NotEnterReverses" xml:space="preserve">
+    <value>未输入冲帐记录！</value>
+  </data>
+  <data name="ContractNoMaxLengthIs20" xml:space="preserve">
+    <value>字段 合同号 必须是最大长度为 20 的字符串。</value>
+  </data>
+  <data name="FineAmountMustbeNumber" xml:space="preserve">
+    <value>字段 罚款金额 必须是一个数字。</value>
+  </data>
+  <data name="FineAmountNotGreaterThanZero" xml:space="preserve">
+    <value>罚款金额必须大于0！</value>
+  </data>
+  <data name="FineAmountRequired" xml:space="preserve">
+    <value>罚款金额 字段是必需的。</value>
+  </data>
+  <data name="FindFineContractDataFaild" xml:space="preserve">
+    <value>查找罚款合同数据失败！</value>
+  </data>
+  <data name="FineAmountCanNotGreaterThanTransportChargesBalance" xml:space="preserve">
+    <value>罚款金额不能大于运费差额！</value>
+  </data>
+  <data name="NotEnterFine" xml:space="preserve">
+    <value>未输入罚款记录！</value>
+  </data>
+  <data name="NewLocationCanNotEqualLocation" xml:space="preserve">
+    <value>移入货位不能与原货位相同！</value>
+  </data>
+  <data name="NewPackagesNotGreaterThanZero" xml:space="preserve">
+    <value>移入件数必须大于0！</value>
+  </data>
+  <data name="NewTunnagesNotGreaterThanZero" xml:space="preserve">
+    <value>移入吨数必须大于0！</value>
+  </data>
+  <data name="NewPackagesCanNotGreaterThanPackages" xml:space="preserve">
+    <value>移入件数不能大于原件数！</value>
+  </data>
+  <data name="SystemIsInUse" xml:space="preserve">
+    <value>系统正在使用中！请关闭所有浏览器窗口后，重新登录</value>
+  </data>
+  <data name="MaxPilesCanNotLessThanMinPiles" xml:space="preserve">
+    <value>垛数上限不能小于等于垛数下限！</value>
+  </data>
+  <data name="MaxPilesNotGreaterThanZero" xml:space="preserve">
+    <value>垛数上限必须大于0！</value>
+  </data>
+  <data name="MinPilesNotGreaterThanZero" xml:space="preserve">
+    <value>垛数上限必须大于0！</value>
+  </data>
+  <data name="MaxTunnagesOrPilesCanNotLessThanMinTunnagesOrPiles" xml:space="preserve">
+    <value>吨数(垛数)上限不能小于等于吨数(垛数)下限！</value>
+  </data>
+  <data name="MaxTunnagesOrPilesNotGreaterThanZero" xml:space="preserve">
+    <value>吨数(垛数)上限必须大于0！</value>
+  </data>
+  <data name="MinTunnagesOrPilesNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>吨数(垛数)下限必须大于或等于0！</value>
+  </data>
+  <data name="InvoiceAmountNotGreaterThanZero" xml:space="preserve">
+    <value>发票金额必须大于0！</value>
+  </data>
+  <data name="NotEnterInvoiceDeliverBills" xml:space="preserve">
+    <value>未输入开票送货单记录！</value>
+  </data>
+  <data name="CarpoolFeeNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>拼车费必须大于或等于0！</value>
+  </data>
+  <data name="SettlementAmountNotGreaterThanZero" xml:space="preserve">
+    <value>结算金额必须大于0！</value>
+  </data>
+  <data name="NotEnterCarrierSettlementDeliverBills" xml:space="preserve">
+    <value>未输入承运单位结算送货单记录！</value>
+  </data>
+  <data name="CarrierNameNotExists" xml:space="preserve">
+    <value>承运单位名称不存在！</value>
+  </data>
+  <data name="DeliverBillNoNotExists" xml:space="preserve">
+    <value>送货单号不存在！</value>
+  </data>
+  <data name="NotEnterDeliverBillNo" xml:space="preserve">
+    <value>未输入送货单号！</value>
+  </data>
+  <data name="ActualTransportPriceCanNotLessThanAgreementTransportPrice" xml:space="preserve">
+    <value>实际单价不能小于协议单价！</value>
+  </data>
+  <data name="FactpaymentAmountNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>实付金额必须大于或等于0！</value>
+  </data>
+  <data name="WithholdAmountNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>扣款金额必须大于或等于0！</value>
+  </data>
+  <data name="FactpaymentAmountMustbeNumber" xml:space="preserve">
+    <value>字段 实付金额 必须是一个数字。</value>
+  </data>
+  <data name="FactpaymentAmountRequired" xml:space="preserve">
+    <value>实付金额 字段是必需的。</value>
+  </data>
+  <data name="WithholdAmountMustbeNumber" xml:space="preserve">
+    <value>字段 扣款金额 必须是一个数字。</value>
+  </data>
+  <data name="WithholdAmountRequired" xml:space="preserve">
+    <value>扣款金额 字段是必需的。</value>
+  </data>
+  <data name="TunnagesNotValidNumeric" xml:space="preserve">
+    <value>吨数不是有效的数字！</value>
+  </data>
+  <data name="GrossWeightRateNotGreaterThanZero" xml:space="preserve">
+    <value>毛重率必须大于0！</value>
+  </data>
+  <data name="TransportChargeExpression1" xml:space="preserve">
+    <value>吨数*单价</value>
+  </data>
+  <data name="TransportChargeExpression2" xml:space="preserve">
+    <value>垛数*单价</value>
+  </data>
+  <data name="TransportChargeExpression3" xml:space="preserve">
+    <value>吨数*公里数*单价</value>
+  </data>
+  <data name="TransportChargeExpression4" xml:space="preserve">
+    <value>吨数*1.03*单价</value>
+  </data>
+  <data name="TransportPriceExpression1" xml:space="preserve">
+    <value>运费/吨数</value>
+  </data>
+  <data name="TransportPriceExpression2" xml:space="preserve">
+    <value>运费/垛数</value>
+  </data>
+  <data name="TransportPriceExpression3" xml:space="preserve">
+    <value>运费/(吨数*公里数)</value>
+  </data>
+  <data name="TransportPriceExpression4" xml:space="preserve">
+    <value>运费/(吨数*1.03)</value>
+  </data>
+  <data name="EnterTunnagesGreaterThanStocks" xml:space="preserve">
+    <value>输入吨数大于库存数！</value>
+  </data>
+  <data name="WarehouseIsDiscrepancy" xml:space="preserve">
+    <value>货物所在仓库不一致！</value>
+  </data>
+  <data name="OverAmountConditionNotSupportOperator" xml:space="preserve">
+    <value>超出金额条件不支持{0}操作！</value>
+  </data>
+  <data name="CanNotOutWarehouseWhenHasDispatchDeliverPlans" xml:space="preserve">
+    <value>当前客户和仓库中有计划未调度，不能出库！</value>
+  </data>
+  <data name="NotEnterCarrierInfoWhenDeliverGoods" xml:space="preserve">
+    <value>发货出库情况下未输入车辆和承运单位信息！</value>
+  </data>
+  <data name="ContractNeedApprove" xml:space="preserve">
+    <value>当前合同需要{0}审批！</value>
+  </data>
+  <data name="FieldValueNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>条件值必须大于或等于0！</value>
+  </data>
+  <data name="ExportMustAfterSearch" xml:space="preserve">
+    <value>请先进行查询，然后再导出！</value>
+  </data>
+  <data name="NotEnterStartTimeAndEndTimeCondition" xml:space="preserve">
+    <value>未输入查询条件起始时间和截止时间！</value>
+  </data>
+  <data name="NotEnterMoveGoods" xml:space="preserve">
+    <value>未输入移库货物！</value>
+  </data>
+  <data name="AboutMobileApp" xml:space="preserve">
+    <value>ShiyeLS Mobile是一款基于智能手机的十野物流业务处理系统。它是针对外地办事处和移动办公人士的管理需求，对PC版的部分功能加以简化和改造以适应手机操作。它支持目前市场上的绝大多数智能手机和平板电脑，如iPhone、iPad、iPod、Android、Windows Phone 7、Symbian S60、BlackBerry、Palm、bada、MeeGo等。</value>
+  </data>
+  <data name="LoadCarrierTransportPriceFaild" xml:space="preserve">
+    <value>读取承运单位{0}，起点{1}，讫点{2}，{3}发货计划承运价格数据失败！</value>
+  </data>
+  <data name="NotEnterActualTunnages" xml:space="preserve">
+    <value>未输入实发吨数！</value>
+  </data>
+  <data name="OriginalContractNoMaxLengthIs20" xml:space="preserve">
+    <value>字段 原始合同号 必须是最大长度为 20 的字符串。</value>
+  </data>
+  <data name="NotEnterReverser" xml:space="preserve">
+    <value>未输入冲帐人！</value>
+  </data>
+  <data name="CustomerNameMaxLengthIs50" xml:space="preserve">
+    <value>字段 客户名称 必须是最大长度为 50 的字符串。</value>
+  </data>
+  <data name="ShipmentBillNoMaxLengthIs20" xml:space="preserve">
+    <value>字段 出仓单号 必须是最大长度为 20 的字符串。</value>
+  </data>
+  <data name="DeliverBillNoMaxLengthIs20" xml:space="preserve">
+    <value>字段 送货单号 必须是最大长度为 20 的字符串。</value>
+  </data>
+  <data name="ReturnModifyContractConfirm" xml:space="preserve">
+    <value>下面将选中的合同退回修改，是否继续？</value>
+  </data>
+  <data name="ComputeTransportChargesFailed" xml:space="preserve">
+    <value>计算运费失败！</value>
+  </data>
+  <data name="NotSelectedContractDeliverPlan" xml:space="preserve">
+    <value>未选择合同发货记录！</value>
+  </data>
+  <data name="NotEnterTunnagesOrPiles" xml:space="preserve">
+    <value>未输入吨数或垛数！</value>
+  </data>
+  <data name="CopyPlanConfirm" xml:space="preserve">
+    <value>下面将复制选中的计划，是否继续？</value>
+  </data>
+  <data name="CancelPlanConfirm2" xml:space="preserve">
+    <value>下面将撤消选中的计划，并删除其所有的调度、出库、合同和结算等记录！是否继续？</value>
+  </data>
+  <data name="DeleteContractReverseConfirm" xml:space="preserve">
+    <value>下面将删除选中的冲帐记录，是否继续？</value>
+  </data>
+  <data name="NotSelectedContractReverse" xml:space="preserve">
+    <value>未选择冲帐记录！</value>
+  </data>
+  <data name="DeleteContractFineConfirm" xml:space="preserve">
+    <value>下面将删除选中的罚款记录，是否继续？</value>
+  </data>
+  <data name="NotSelectedContractFine" xml:space="preserve">
+    <value>未选择罚款记录！</value>
+  </data>
+  <data name="DeleteDeliverBillCustomerTransportPriceConfirm" xml:space="preserve">
+    <value>下面将删除选中的特殊结算价格记录，是否继续？</value>
+  </data>
+  <data name="NotSelectedDeliverBillCustomerTransportPrice" xml:space="preserve">
+    <value>未选择特殊结算价格记录！</value>
+  </data>
+  <data name="DeleteCustomerTransportChargesSettlementConfirm" xml:space="preserve">
+    <value>下面将删除选中的客户运费结算记录，是否继续？</value>
+  </data>
+  <data name="NotSelectedCustomerTransportChargesSettlement" xml:space="preserve">
+    <value>未选择客户运费结算记录！</value>
+  </data>
+  <data name="DeleteCarrierTransportChargesSettlementConfirm" xml:space="preserve">
+    <value>下面将删除选中的承运单位运费结算记录，是否继续？</value>
+  </data>
+  <data name="NotSelectedCarrierTransportChargesSettlement" xml:space="preserve">
+    <value>未选择承运单位运费结算记录！</value>
+  </data>
+  <data name="NewInvoiceMustAfterSearch" xml:space="preserve">
+    <value>请先进行查询，然后再录入开票信息！</value>
+  </data>
+  <data name="DeleteCustomerStorageAndForceFeeSettlementConfirm" xml:space="preserve">
+    <value>下面将删除选中的仓储力支费结算记录，是否继续？</value>
+  </data>
+  <data name="NotSelectedCustomerStorageAndForceFeeSettlement" xml:space="preserve">
+    <value>未选择仓储力支费结算记录！</value>
+  </data>
+  <data name="DeleteReceiverConfirm" xml:space="preserve">
+    <value>下面将删除选中的收货单位，是否继续？</value>
+  </data>
+  <data name="NotSelectedReceiver" xml:space="preserve">
+    <value>未选择收货单位！</value>
+  </data>
+  <data name="NotSelectedReceiverDistance" xml:space="preserve">
+    <value>未选择收货单位距离记录！</value>
+  </data>
+  <data name="DeleteReceiverDistanceConfirm" xml:space="preserve">
+    <value>下面将删除选中的收货单位距离记录，是否继续？</value>
+  </data>
+  <data name="ReceiverDistanceIsExists" xml:space="preserve">
+    <value>收货单位距离记录重复！</value>
+  </data>
+  <data name="ActualTunnagesNotGreaterThanZero" xml:space="preserve">
+    <value>实发吨数必须大于0！</value>
+  </data>
+  <data name="PlanHadDeleted" xml:space="preserve">
+    <value>计划已经删除！</value>
+  </data>
+  <data name="NotSelectedOutWarehouseBill" xml:space="preserve">
+    <value>未选择出库单！</value>
+  </data>
+  <data name="DeleteOutWarehouseBillConfirm" xml:space="preserve">
+    <value>下面将删除选中的出库单，是否继续？</value>
+  </data>
+  <data name="CanNotDeleteOutWarehouseBillCreateByShipmentBill" xml:space="preserve">
+    <value>不能删除由出仓单生成的出库单！</value>
+  </data>
+  <data name="DeleteEnterWarehouseBillConfirm" xml:space="preserve">
+    <value>下面将删除选中的入库单，是否继续？</value>
+  </data>
+  <data name="NotSelectedEnterWarehouseBill" xml:space="preserve">
+    <value>未选择入库单！</value>
+  </data>
+  <data name="CanNotDeleteEnterWarehouseBillCreateByAllocateGoods" xml:space="preserve">
+    <value>不能删除由划拨出库生成的入库单！</value>
+  </data>
+  <data name="DeleteMoveWarehouseBillConfirm" xml:space="preserve">
+    <value>下面将删除选中的移库单，是否继续？</value>
+  </data>
+  <data name="NotSelectedMoveWarehouseBill" xml:space="preserve">
+    <value>未选择移库单！</value>
+  </data>
+  <data name="LimitedTransportPriceNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>限制单价必须大于或等于0！</value>
+  </data>
+  <data name="NotEnterDriverLicenseNo" xml:space="preserve">
+    <value>未输入驾驶证号！</value>
+  </data>
+  <data name="NotEnterDriverMobileTel" xml:space="preserve">
+    <value>未输入驾驶员手机号码！</value>
+  </data>
+  <data name="SubmitDispatchBillGoodsNotCompleteSubtract" xml:space="preserve">
+    <value>待提交调度单货物数字未完全减去！</value>
+  </data>
+  <data name="SubmitShipmentBillGoodsNotCompleteSubtract" xml:space="preserve">
+    <value>待提交出仓单货物数字未完全减去！</value>
+  </data>
+  <data name="GoodsIsExistsAndNeedMerge" xml:space="preserve">
+    <value>货物信息重复！需要合并吗？</value>
+  </data>
+  <data name="GoodsNoNotExistsAndNeedCreate" xml:space="preserve">
+    <value>货物编号不存在！需要新增吗？</value>
+  </data>
+  <data name="GoodsModifyBeforeAndAfterPackagesOrTunnagesNotEqual" xml:space="preserve">
+    <value>编号{0}，批次{1}，包装{2}，生产日期{3}的货物修改前后件数或吨数不一致！</value>
+  </data>
+  <data name="GoodsModifyBeforeAndAfterTotalPackagesOrTotalTunnagesNotEqual" xml:space="preserve">
+    <value>货物修改前后累计件数或累计吨数不一致！</value>
+  </data>
+  <data name="SubmitedDeliverPlanGoodsNotCompleteSubtract" xml:space="preserve">
+    <value>已提交未发货计划货物数字未完全减去！</value>
+  </data>
+  <data name="ModifyDeliverPlanReceiveTypeConfirm" xml:space="preserve">
+    <value>该发货计划原为客户自提，修改车号后是否改为配送？</value>
+  </data>
+  <data name="RiverCrossingChargesNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>过江费必须大于或等于0！</value>
+  </data>
+  <data name="ActualPackagesCanNotGreaterThanBalancePackages" xml:space="preserve">
+    <value>实发件数不能大于结存件数！</value>
+  </data>
+  <data name="NotEnterTenThousands" xml:space="preserve">
+    <value>未输入万只！</value>
+  </data>
+  <data name="PackagesCanNotGreaterThanZeroWhenPilesGreaterThanZero" xml:space="preserve">
+    <value>垛数大于0时，件数不能大于0！</value>
+  </data>
+  <data name="TenThousandsCanNotGreaterThanZeroWhenTunnagesGreaterThanZero" xml:space="preserve">
+    <value>吨数大于0时，万只不能大于0！</value>
+  </data>
+  <data name="TunnagesAndPilesCanNotGreaterThanZeroAtSameTime" xml:space="preserve">
+    <value>吨数和垛数不能同时大于0！</value>
+  </data>
+  <data name="NotEnterActualTunnagesOrActualPiles" xml:space="preserve">
+    <value>未输入实发吨数或实发垛数！</value>
+  </data>
+  <data name="ActualPilesCanNotGreaterThanBalancePiles" xml:space="preserve">
+    <value>实发垛数不能大于结存垛数！</value>
+  </data>
+  <data name="ActualTenThousandsCanNotGreaterThanBalanceTenThousands" xml:space="preserve">
+    <value>实发万只不能大于结存万只！</value>
+  </data>
+  <data name="NewPackagesNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>移入件数必须大于或等于0！</value>
+  </data>
+  <data name="NewPilesNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>移入垛数必须大于或等于0！</value>
+  </data>
+  <data name="NewTenThousandsNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>移入万只必须大于或等于0！</value>
+  </data>
+  <data name="NewTunnagesNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>移入吨数必须大于或等于0！</value>
+  </data>
+  <data name="NewPackagesCanNotGreaterThanBalancePackages" xml:space="preserve">
+    <value>移入件数不能大于结存件数！</value>
+  </data>
+  <data name="NewPilesCanNotGreaterThanBalancePiles" xml:space="preserve">
+    <value>移入垛数不能大于结存垛数！</value>
+  </data>
+  <data name="NewTenThousandsCanNotGreaterThanBalanceTenThousands" xml:space="preserve">
+    <value>移入万只不能大于结存万只！</value>
+  </data>
+  <data name="NewPackagesCanNotGreaterThanZeroWhenNewPilesGreaterThanZero" xml:space="preserve">
+    <value>移入垛数大于0时，移入件数不能大于0！</value>
+  </data>
+  <data name="NewTenThousandsCanNotGreaterThanZeroWhenNewTunnagesGreaterThanZero" xml:space="preserve">
+    <value>移入吨数大于0时，移入万只不能大于0！</value>
+  </data>
+  <data name="NewTunnagesAndNewPilesCanNotGreaterThanZeroAtSameTime" xml:space="preserve">
+    <value>移入吨数和移入垛数不能同时大于0！</value>
+  </data>
+  <data name="NotEnterNewPackages" xml:space="preserve">
+    <value>未输入移入件数！</value>
+  </data>
+  <data name="NotEnterNewTenThousands" xml:space="preserve">
+    <value>未输入移入万只！</value>
+  </data>
+  <data name="NotEnterNewTunnagesOrNewPiles" xml:space="preserve">
+    <value>未输入移入吨数或移入垛数！</value>
+  </data>
+  <data name="PilesNotValidNumeric" xml:space="preserve">
+    <value>垛数不是有效的数字！</value>
+  </data>
+  <data name="TenThousandsNotValidNumeric" xml:space="preserve">
+    <value>万只不是有效的数字！</value>
+  </data>
+  <data name="TotalPackagesOrTotalPilesNotGreaterThanZero" xml:space="preserve">
+    <value>累计件数或累计垛数必须大于0！</value>
+  </data>
+  <data name="CanNotPrintShipmentBillMixed" xml:space="preserve">
+    <value>出仓单不能混合打印！</value>
+  </data>
+  <data name="CanNotPrintDeliverBillMixed" xml:space="preserve">
+    <value>送货单不能混合打印！</value>
+  </data>
+  <data name="NotSupportDeliverBillPrint" xml:space="preserve">
+    <value>不支持此类送货单打印！</value>
+  </data>
+  <data name="CanNotModifyStockEndDifferencesEnterWarehouseBill" xml:space="preserve">
+    <value>不能修改库存尾差入库单，请删除重新入库！</value>
+  </data>
+  <data name="NotEnterTunnages" xml:space="preserve">
+    <value>未输入吨数！</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>2011 镇江智诚软件有限公司</value>
+  </data>
+  <data name="ActualTransportChargesNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>实际运费必须大于或等于0！</value>
+  </data>
+  <data name="ReturnModifyPlanConfirm" xml:space="preserve">
+    <value>下面将选中的待调度计划退回修改，是否继续？</value>
+  </data>
+  <data name="NotEnterStartTimeOrEndTimeOrPayerNameCondition" xml:space="preserve">
+    <value>未输入查询条件起始时间、截止时间或付款单位名称！</value>
+  </data>
+  <data name="NotEnterPackagesOrTunnages" xml:space="preserve">
+    <value>未输入件数或吨数！</value>
+  </data>
+  <data name="NewContractCarNoMustSame" xml:space="preserve">
+    <value>新增合同时车号必须相同！</value>
+  </data>
+  <data name="NewContractMultiDispatchBillMustMergeAgainConfirm" xml:space="preserve">
+    <value>再次确认！！！如果继续点击确定按钮的话，系统立即将选中的调度单合并成一个调度单，且无法还原。真的要这么做吗？</value>
+  </data>
+  <data name="NewContractMultiDispatchBillMustMergeConfirm" xml:space="preserve">
+    <value>你选择了多张调度单，当创建一个合同时，系统会自动将这些调度单合并在一起，且无法还原。确认是同一车货物吗？</value>
+  </data>
+  <data name="DeliverBillMergedMustReprint" xml:space="preserve">
+    <value>警告！！！送货单发生合并，请作废原送货单，补打新送货单。</value>
+  </data>
+  <data name="ShipmentBillMergedMustReprint" xml:space="preserve">
+    <value>警告！！！出仓单发生合并，请作废原出仓单，补打新出仓单。</value>
+  </data>
+  <data name="NotFoundShipmentBillGoodsForEnterWarehouseBill" xml:space="preserve">
+    <value>未找到入库单对应的出仓单货物！</value>
+  </data>
+  <data name="DeleteCustomerForceFeePriceConfirm" xml:space="preserve">
+    <value>下面将删除选中的客户力支费价格记录，是否继续？</value>
+  </data>
+  <data name="DeleteCustomerStorageFeePriceConfirm" xml:space="preserve">
+    <value>下面将删除选中的客户仓储费价格记录，是否继续？</value>
+  </data>
+  <data name="NotSelectedCustomerForceFeePrice" xml:space="preserve">
+    <value>未选择客户力支费价格记录！</value>
+  </data>
+  <data name="NotSelectedCustomerStorageFeePrice" xml:space="preserve">
+    <value>未选择客户仓储费价格记录！</value>
+  </data>
+  <data name="CustomerForceFeePriceIsExists" xml:space="preserve">
+    <value>客户力支费价格记录重复或重叠！</value>
+  </data>
+  <data name="CustomerStorageFeePriceIsExists" xml:space="preserve">
+    <value>客户仓储费价格记录重复或重叠！</value>
+  </data>
+  <data name="CarrierNameMaxLengthIs50" xml:space="preserve">
+    <value>字段 承运单位名称 必须是最大长度为 50 的字符串。</value>
+  </data>
+  <data name="CreateTimeCantNotGreaterThanSystemTime" xml:space="preserve">
+    <value>录入时间不能大于当前时间！</value>
+  </data>
+  <data name="ActualBoxesNotLessThanOrEqualZero" xml:space="preserve">
+    <value>实发箱数必须小于或等于0！</value>
+  </data>
+  <data name="ActualTunnagesNotLessThanOrEqualZero" xml:space="preserve">
+    <value>实发吨数必须小于或等于0！</value>
+  </data>
+  <data name="TransportChargesCanNotEqualZero" xml:space="preserve">
+    <value>运费不能等于0！</value>
+  </data>
+  <data name="BoxesCanNotEqualZero" xml:space="preserve">
+    <value>箱数不能等于0！</value>
+  </data>
+  <data name="TunnagesCanNotEqualZero" xml:space="preserve">
+    <value>吨数不能等于0！</value>
+  </data>
+  <data name="TransportChargesNotValidNumeric" xml:space="preserve">
+    <value>运费不是有效的数字！</value>
+  </data>
+  <data name="PackagesCanNotEqualZero" xml:space="preserve">
+    <value>件数不能等于0！</value>
+  </data>
+  <data name="ResidualTransportChargesCanNotEqualZero" xml:space="preserve">
+    <value>剩余运费不能等于0！</value>
+  </data>
+  <data name="TunnagesAndPilesCanNotEnterAtSameTime" xml:space="preserve">
+    <value>吨数和垛数不能同时输入！</value>
+  </data>
+  <data name="ReverseAmountCanNotEqualZero" xml:space="preserve">
+    <value>冲帐金额不能等于0！</value>
+  </data>
+  <data name="InvoiceAmountCanNotEqualZero" xml:space="preserve">
+    <value>发票金额不能等于0！</value>
+  </data>
+  <data name="EnterPilesGreaterThanStocks" xml:space="preserve">
+    <value>输入垛数大于库存数！</value>
+  </data>
+  <data name="EnterTenThousandsGreaterThanStocks" xml:space="preserve">
+    <value>输入万只大于库存数！</value>
+  </data>
+  <data name="EnterTunnagesGreaterThanStocksConfirm" xml:space="preserve">
+    <value>输入吨数大于库存数，是否继续？</value>
+  </data>
+  <data name="CancelPlanConfirm3" xml:space="preserve">
+    <value>该计划已冲帐，是否继续？</value>
+  </data>
+  <data name="CancelPlanConfirm4" xml:space="preserve">
+    <value>该计划客户已结算，是否继续？</value>
+  </data>
+  <data name="CancelPlanConfirm5" xml:space="preserve">
+    <value>该计划承运单位已结算，是否继续？</value>
+  </data>
+  <data name="NotSelectedRecord" xml:space="preserve">
+    <value>未选择记录！</value>
+  </data>
+  <data name="DeleteDeliverBillCarrierTransportPriceConfirm" xml:space="preserve">
+    <value>下面将删除选中的特殊承运价格记录，是否继续？</value>
+  </data>
+  <data name="NotSelectedDeliverBillCarrierTransportPrice" xml:space="preserve">
+    <value>未选择特殊承运价格记录！</value>
+  </data>
+  <data name="ReturnDispatchConfirm" xml:space="preserve">
+    <value>{0}\r\n下面将选中的出货记录及其同车的其它出货记录全部退回重新调度，是否继续？</value>
+  </data>
+  <data name="LimitedTransportChargesNotGreaterThanOrEqualZero" xml:space="preserve">
+    <value>限制总价必须大于或等于0！</value>
+  </data>
+  <data name="CheckForReturnDispatchFailed" xml:space="preserve">
+    <value>在退回调度前检查失败！</value>
+  </data>
+</root>

@@ -1,0 +1,762 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppName" xml:space="preserve">
+    <value>ShiyeLS十野物流业务处理系统</value>
+  </data>
+  <data name="ApproveOpinion" xml:space="preserve">
+    <value>审批意见</value>
+  </data>
+  <data name="AssignPermissions" xml:space="preserve">
+    <value>分配权限</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>请问</value>
+  </data>
+  <data name="CustomerApproveOpinion" xml:space="preserve">
+    <value>客户审批意见</value>
+  </data>
+  <data name="CustomerApprovePaperPlans" xml:space="preserve">
+    <value>客户审批纸发货计划</value>
+  </data>
+  <data name="CustomerNewPaperPlan" xml:space="preserve">
+    <value>客户新增纸发货计划</value>
+  </data>
+  <data name="DraftOrders" xml:space="preserve">
+    <value>草稿订单列表</value>
+  </data>
+  <data name="EnterOpinion" xml:space="preserve">
+    <value>输入意见</value>
+  </data>
+  <data name="EnterWarehouse" xml:space="preserve">
+    <value>货物入库</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>出错啦</value>
+  </data>
+  <data name="ImportCustomers" xml:space="preserve">
+    <value>导入客户</value>
+  </data>
+  <data name="ImportGoods" xml:space="preserve">
+    <value>导入货物档案</value>
+  </data>
+  <data name="ModifyAccount" xml:space="preserve">
+    <value>修改登录帐号</value>
+  </data>
+  <data name="ModifyApproveFlowStepCondition" xml:space="preserve">
+    <value>修改处理条件</value>
+  </data>
+  <data name="ModifyCanPlan" xml:space="preserve">
+    <value>修改罐发货计划</value>
+  </data>
+  <data name="ModifyCarrier" xml:space="preserve">
+    <value>修改承运单位档案</value>
+  </data>
+  <data name="ModifyCarrierCar" xml:space="preserve">
+    <value>修改承运单位车辆信息</value>
+  </data>
+  <data name="ModifyCarrierDriver" xml:space="preserve">
+    <value>修改承运单位驾驶员信息</value>
+  </data>
+  <data name="ModifyCarrierTransportPrice" xml:space="preserve">
+    <value>修改承运单位运费价格</value>
+  </data>
+  <data name="ModifyCity" xml:space="preserve">
+    <value>修改市/县/区/镇</value>
+  </data>
+  <data name="ModifyCountry" xml:space="preserve">
+    <value>修改国家</value>
+  </data>
+  <data name="ModifyCustomer" xml:space="preserve">
+    <value>修改客户档案</value>
+  </data>
+  <data name="ModifyCustomerTransportPrice" xml:space="preserve">
+    <value>修改客户结算价格</value>
+  </data>
+  <data name="ModifyEnterWarehouseBillGoods" xml:space="preserve">
+    <value>修改入库货物</value>
+  </data>
+  <data name="ModifyGoods" xml:space="preserve">
+    <value>修改货物档案</value>
+  </data>
+  <data name="ModifyGoodsType" xml:space="preserve">
+    <value>修改货物类别</value>
+  </data>
+  <data name="ModifyOrganization" xml:space="preserve">
+    <value>修改组织部门</value>
+  </data>
+  <data name="ModifyNoodlePlan" xml:space="preserve">
+    <value>修改方便面发货计划</value>
+  </data>
+  <data name="ModifyPaperPlan" xml:space="preserve">
+    <value>修改纸发货计划</value>
+  </data>
+  <data name="ModifyPassword" xml:space="preserve">
+    <value>修改密码</value>
+  </data>
+  <data name="ModifyPermissionGroup" xml:space="preserve">
+    <value>修改权限组</value>
+  </data>
+  <data name="ModifyPlanApproveStep" xml:space="preserve">
+    <value>修改计划审批步骤</value>
+  </data>
+  <data name="ModifyPlanGoods" xml:space="preserve">
+    <value>修改货物信息</value>
+  </data>
+  <data name="ModifyPosition" xml:space="preserve">
+    <value>修改岗位</value>
+  </data>
+  <data name="ModifyPriceApproveStep" xml:space="preserve">
+    <value>修改价格审批步骤</value>
+  </data>
+  <data name="ModifyProvince" xml:space="preserve">
+    <value>修改省/州/自治区/直辖市</value>
+  </data>
+  <data name="ModifyStaff" xml:space="preserve">
+    <value>修改员工档案</value>
+  </data>
+  <data name="ModifyTransportLimitedPrice" xml:space="preserve">
+    <value>修改运费限价记录</value>
+  </data>
+  <data name="ModifyWarehouse" xml:space="preserve">
+    <value>修改仓库资料</value>
+  </data>
+  <data name="NewAccount" xml:space="preserve">
+    <value>新增登录帐号</value>
+  </data>
+  <data name="NewApproveFlowStepCondition" xml:space="preserve">
+    <value>新增处理条件</value>
+  </data>
+  <data name="NewCanPlan" xml:space="preserve">
+    <value>新增罐发货计划</value>
+  </data>
+  <data name="NewCarrier" xml:space="preserve">
+    <value>新增承运单位档案</value>
+  </data>
+  <data name="NewCarrierCar" xml:space="preserve">
+    <value>新增承运单位车辆信息</value>
+  </data>
+  <data name="NewCarrierDriver" xml:space="preserve">
+    <value>新增承运单位驾驶员信息</value>
+  </data>
+  <data name="NewCarrierTransportPrice" xml:space="preserve">
+    <value>新增承运单位运费价格</value>
+  </data>
+  <data name="NewCity" xml:space="preserve">
+    <value>新增市/县/区/镇</value>
+  </data>
+  <data name="NewCountry" xml:space="preserve">
+    <value>新增国家</value>
+  </data>
+  <data name="NewCustomer" xml:space="preserve">
+    <value>新增客户档案</value>
+  </data>
+  <data name="NewCustomerTransportPrice" xml:space="preserve">
+    <value>新增客户结算价格</value>
+  </data>
+  <data name="NewEnterWarehouseBillGoods" xml:space="preserve">
+    <value>新增入库货物</value>
+  </data>
+  <data name="NewGoods" xml:space="preserve">
+    <value>新增货物档案</value>
+  </data>
+  <data name="NewGoodsType" xml:space="preserve">
+    <value>新增货物类别</value>
+  </data>
+  <data name="NewOrganization" xml:space="preserve">
+    <value>新增组织部门</value>
+  </data>
+  <data name="NewNoodlePlan" xml:space="preserve">
+    <value>新增方便面发货计划</value>
+  </data>
+  <data name="NewPaperPlan" xml:space="preserve">
+    <value>新增纸发货计划</value>
+  </data>
+  <data name="NewPermissionGroup" xml:space="preserve">
+    <value>新增权限组</value>
+  </data>
+  <data name="NewPlanApproveStep" xml:space="preserve">
+    <value>新增计划审批步骤</value>
+  </data>
+  <data name="NewPlanGoods" xml:space="preserve">
+    <value>新增货物信息</value>
+  </data>
+  <data name="NewPosition" xml:space="preserve">
+    <value>新增岗位</value>
+  </data>
+  <data name="NewPriceApproveStep" xml:space="preserve">
+    <value>新增价格审批步骤</value>
+  </data>
+  <data name="NewProvince" xml:space="preserve">
+    <value>新增省/州/自治区/直辖市</value>
+  </data>
+  <data name="NewStaff" xml:space="preserve">
+    <value>新增员工档案</value>
+  </data>
+  <data name="NewTransportLimitedPrice" xml:space="preserve">
+    <value>新增运费限价记录</value>
+  </data>
+  <data name="NewWarehouse" xml:space="preserve">
+    <value>新增仓库资料</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>初始化密码</value>
+  </data>
+  <data name="SetAccount" xml:space="preserve">
+    <value>设置登录帐号</value>
+  </data>
+  <data name="SetCarrier" xml:space="preserve">
+    <value>设置承运单位档案</value>
+  </data>
+  <data name="SetCity" xml:space="preserve">
+    <value>设置市/县/区/镇</value>
+  </data>
+  <data name="SetCountry" xml:space="preserve">
+    <value>设置国家</value>
+  </data>
+  <data name="SetCustomer" xml:space="preserve">
+    <value>设置客户</value>
+  </data>
+  <data name="SetDriver" xml:space="preserve">
+    <value>设置驾驶员档案</value>
+  </data>
+  <data name="SetGoods" xml:space="preserve">
+    <value>设置货物档案</value>
+  </data>
+  <data name="SetGoodsType" xml:space="preserve">
+    <value>设置货物类别</value>
+  </data>
+  <data name="SetOrganization" xml:space="preserve">
+    <value>设置组织结构</value>
+  </data>
+  <data name="SetPermissionGroup" xml:space="preserve">
+    <value>设置权限组</value>
+  </data>
+  <data name="SetPlanApproveFlow" xml:space="preserve">
+    <value>设置计划审批流程</value>
+  </data>
+  <data name="SetPosition" xml:space="preserve">
+    <value>设置岗位</value>
+  </data>
+  <data name="SetPriceApproveFlow" xml:space="preserve">
+    <value>设置价格审批流程</value>
+  </data>
+  <data name="SetProvince" xml:space="preserve">
+    <value>设置省/州/自治区/直辖市</value>
+  </data>
+  <data name="SetStaff" xml:space="preserve">
+    <value>设置员工</value>
+  </data>
+  <data name="SetTransportLimitedPrice" xml:space="preserve">
+    <value>设置运费限价记录</value>
+  </data>
+  <data name="SetWarehouse" xml:space="preserve">
+    <value>设置仓库资料</value>
+  </data>
+  <data name="Sorry" xml:space="preserve">
+    <value>对不起</value>
+  </data>
+  <data name="SubmitCanPlan" xml:space="preserve">
+    <value>提交罐发货计划</value>
+  </data>
+  <data name="SubmitNoodlePlan" xml:space="preserve">
+    <value>提交方便面发货计划</value>
+  </data>
+  <data name="SubmitPaperPlan" xml:space="preserve">
+    <value>提交纸发货计划</value>
+  </data>
+  <data name="SubmitDeliverPlans" xml:space="preserve">
+    <value>提交计划</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="ViewStaffDetails" xml:space="preserve">
+    <value>查看员工详细信息</value>
+  </data>
+  <data name="NewOtherPlan" xml:space="preserve">
+    <value>新增其它发货计划</value>
+  </data>
+  <data name="ModifyOtherPlan" xml:space="preserve">
+    <value>修改其它发货计划</value>
+  </data>
+  <data name="SubmitOtherPlan" xml:space="preserve">
+    <value>提交其它发货计划</value>
+  </data>
+  <data name="SearchDeliverPlans" xml:space="preserve">
+    <value>查询计划</value>
+  </data>
+  <data name="EnterCondition" xml:space="preserve">
+    <value>输入查询条件</value>
+  </data>
+  <data name="ViewCanPlanDetails" xml:space="preserve">
+    <value>查看罐发货计划详细信息</value>
+  </data>
+  <data name="ViewNoodlePlanDetails" xml:space="preserve">
+    <value>查看方便面发货计划详细信息</value>
+  </data>
+  <data name="ViewOtherPlanDetails" xml:space="preserve">
+    <value>查看其它发货计划详细信息</value>
+  </data>
+  <data name="ViewPaperPlanDetails" xml:space="preserve">
+    <value>查看纸发货计划详细信息</value>
+  </data>
+  <data name="DispatchDeliverPlans" xml:space="preserve">
+    <value>调度计划</value>
+  </data>
+  <data name="ViewDispatchCanPlanDetails" xml:space="preserve">
+    <value>查看待调度罐发货计划详细信息</value>
+  </data>
+  <data name="ViewDispatchNoodlePlanDetails" xml:space="preserve">
+    <value>查看待调度方便面发货计划详细信息</value>
+  </data>
+  <data name="ViewDispatchOtherPlanDetails" xml:space="preserve">
+    <value>查看待调度其它发货计划详细信息</value>
+  </data>
+  <data name="ViewDispatchPaperPlanDetails" xml:space="preserve">
+    <value>查看待调度纸发货计划详细信息</value>
+  </data>
+  <data name="GoodsList" xml:space="preserve">
+    <value>货物列表</value>
+  </data>
+  <data name="DispatchHistories" xml:space="preserve">
+    <value>调度历史记录</value>
+  </data>
+  <data name="DispatchPaperPlan" xml:space="preserve">
+    <value>调度纸发货计划</value>
+  </data>
+  <data name="DispatchCanPlan" xml:space="preserve">
+    <value>调度罐发货计划</value>
+  </data>
+  <data name="DispatchNoodlePlan" xml:space="preserve">
+    <value>调度方便面发货计划</value>
+  </data>
+  <data name="Tooltip" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="ModifyCarrierSettlementExpression" xml:space="preserve">
+    <value>修改承运单位结算公式</value>
+  </data>
+  <data name="NewCarrierSettlementExpression" xml:space="preserve">
+    <value>新增承运单位结算公式</value>
+  </data>
+  <data name="DispatchOtherPlan" xml:space="preserve">
+    <value>调度其它发货计划</value>
+  </data>
+  <data name="SubmitDispatchBills" xml:space="preserve">
+    <value>提交调度单</value>
+  </data>
+  <data name="NewDispatchBill" xml:space="preserve">
+    <value>新增调度单</value>
+  </data>
+  <data name="AddDispatchedPlan" xml:space="preserve">
+    <value>添加配载计划</value>
+  </data>
+  <data name="ModifyDispatchedPlan" xml:space="preserve">
+    <value>修改配载计划</value>
+  </data>
+  <data name="ModifyDispatchBill" xml:space="preserve">
+    <value>修改调度单</value>
+  </data>
+  <data name="SubmitDispatchBill" xml:space="preserve">
+    <value>提交调度单</value>
+  </data>
+  <data name="PrintDispatchedShipmentBills" xml:space="preserve">
+    <value>打印调度出仓单</value>
+  </data>
+  <data name="PrintShipmentBill" xml:space="preserve">
+    <value>打印出仓单</value>
+  </data>
+  <data name="ShipmentBill" xml:space="preserve">
+    <value>出仓单</value>
+  </data>
+  <data name="PrintAllocateShipmentBills" xml:space="preserve">
+    <value>打印划拨出仓单</value>
+  </data>
+  <data name="SubmitShipmentBills" xml:space="preserve">
+    <value>提交出仓单</value>
+  </data>
+  <data name="ModifyShipmentBill" xml:space="preserve">
+    <value>修改出仓单</value>
+  </data>
+  <data name="OutWarehouse" xml:space="preserve">
+    <value>货物出库</value>
+  </data>
+  <data name="PrintDeliverBills" xml:space="preserve">
+    <value>打印送货单</value>
+  </data>
+  <data name="ModifyDeliverBill" xml:space="preserve">
+    <value>修改送货单</value>
+  </data>
+  <data name="PrintDeliverBill" xml:space="preserve">
+    <value>打印送货单</value>
+  </data>
+  <data name="DeliverBill" xml:space="preserve">
+    <value>送货单</value>
+  </data>
+  <data name="ReceiptDeliverBills" xml:space="preserve">
+    <value>接收送货单回单</value>
+  </data>
+  <data name="EnterReceipt" xml:space="preserve">
+    <value>输入回单信息</value>
+  </data>
+  <data name="NewContract" xml:space="preserve">
+    <value>新增合同</value>
+  </data>
+  <data name="ModifyTransportCharges" xml:space="preserve">
+    <value>修改运费</value>
+  </data>
+  <data name="SubmitContracts" xml:space="preserve">
+    <value>提交合同</value>
+  </data>
+  <data name="ModifyContract" xml:space="preserve">
+    <value>修改合同</value>
+  </data>
+  <data name="SubmitContract" xml:space="preserve">
+    <value>提交合同</value>
+  </data>
+  <data name="PrintContracts" xml:space="preserve">
+    <value>打印合同</value>
+  </data>
+  <data name="PrintContract" xml:space="preserve">
+    <value>打印合同</value>
+  </data>
+  <data name="Contract" xml:space="preserve">
+    <value>货物交接承运合同</value>
+  </data>
+  <data name="ApproveContracts" xml:space="preserve">
+    <value>审批合同价格</value>
+  </data>
+  <data name="ApproveContract" xml:space="preserve">
+    <value>审批价格</value>
+  </data>
+  <data name="ReverseContracts" xml:space="preserve">
+    <value>冲帐处理</value>
+  </data>
+  <data name="EnterReverseAmount" xml:space="preserve">
+    <value>输入冲帐金额</value>
+  </data>
+  <data name="SaveReverses" xml:space="preserve">
+    <value>保存冲帐记录</value>
+  </data>
+  <data name="SearchReverses" xml:space="preserve">
+    <value>查询冲帐记录</value>
+  </data>
+  <data name="FineContracts" xml:space="preserve">
+    <value>罚款处理</value>
+  </data>
+  <data name="EnterFineAmount" xml:space="preserve">
+    <value>输入罚款金额</value>
+  </data>
+  <data name="SaveFines" xml:space="preserve">
+    <value>保存罚款记录</value>
+  </data>
+  <data name="SearchEnterWarehouseBills" xml:space="preserve">
+    <value>查询入库记录</value>
+  </data>
+  <data name="SearchOutWarehouseBills" xml:space="preserve">
+    <value>查询出库记录</value>
+  </data>
+  <data name="MoveWarehouse" xml:space="preserve">
+    <value>货物移库</value>
+  </data>
+  <data name="SearchMoveWarehouseBills" xml:space="preserve">
+    <value>查询移库记录</value>
+  </data>
+  <data name="EnterOutBalanceSummary" xml:space="preserve">
+    <value>汇总收发存</value>
+  </data>
+  <data name="StatStorageAndForceFee" xml:space="preserve">
+    <value>统计仓储力支费</value>
+  </data>
+  <data name="SearchConsigningDeliverPlans" xml:space="preserve">
+    <value>查询寄库计划</value>
+  </data>
+  <data name="PrintStocktaking" xml:space="preserve">
+    <value>打印盘点表</value>
+  </data>
+  <data name="Stocktaking" xml:space="preserve">
+    <value>盘点表</value>
+  </data>
+  <data name="StatCustomerStatement" xml:space="preserve">
+    <value>客户对帐</value>
+  </data>
+  <data name="NewCustomerTransportChargesSettlement" xml:space="preserve">
+    <value>新增客户运费结算记录</value>
+  </data>
+  <data name="SearchCustomerTransportChargesSettlements" xml:space="preserve">
+    <value>查询客户运费结算记录</value>
+  </data>
+  <data name="StatCarrierStatement" xml:space="preserve">
+    <value>承运单位对帐</value>
+  </data>
+  <data name="NewCarrierTransportChargesSettlement" xml:space="preserve">
+    <value>新增承运单位运费结算记录</value>
+  </data>
+  <data name="SearchCarrierTransportChargesSettlements" xml:space="preserve">
+    <value>查询承运单位运费结算记录</value>
+  </data>
+  <data name="StatOrganTotalOutput" xml:space="preserve">
+    <value>统计办事处总产值</value>
+  </data>
+  <data name="NewDeliverBillCustomerTransportPrice" xml:space="preserve">
+    <value>录入特殊结算价格</value>
+  </data>
+  <data name="SearchDeliverBillCustomerTransportPrices" xml:space="preserve">
+    <value>查询特殊结算价格记录</value>
+  </data>
+  <data name="SearchFines" xml:space="preserve">
+    <value>查询罚款记录</value>
+  </data>
+  <data name="SelectGoods" xml:space="preserve">
+    <value>选择货物</value>
+  </data>
+  <data name="NewNotDeliverPaperPlan" xml:space="preserve">
+    <value>录入纸直发货计划</value>
+  </data>
+  <data name="CustomerNewNotDeliverPaperPlan" xml:space="preserve">
+    <value>客户录入纸直发货计划</value>
+  </data>
+  <data name="ModifyNotDeliverPaperPlan" xml:space="preserve">
+    <value>修改纸直发货计划</value>
+  </data>
+  <data name="SubmitNotDeliverPaperPlan" xml:space="preserve">
+    <value>提交纸直发货计划</value>
+  </data>
+  <data name="DispatchNotDeliverPaperPlan" xml:space="preserve">
+    <value>调度纸直发货计划</value>
+  </data>
+  <data name="SearchDeliverBillReceipts" xml:space="preserve">
+    <value>查询送货单回单</value>
+  </data>
+  <data name="MobileAppName" xml:space="preserve">
+    <value>ShiyeLS十野物流业务处理手机系统</value>
+  </data>
+  <data name="PleaseChoose" xml:space="preserve">
+    <value>请选择</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>关于 ShiyeLS Mobile</value>
+  </data>
+  <data name="WelcomeLogin" xml:space="preserve">
+    <value>欢迎登录</value>
+  </data>
+  <data name="StatCustomerTotalOutput" xml:space="preserve">
+    <value>统计客户总产值</value>
+  </data>
+  <data name="ReprintShipmentBills" xml:space="preserve">
+    <value>补打出仓单</value>
+  </data>
+  <data name="ReprintDeliverBills" xml:space="preserve">
+    <value>补打送货单</value>
+  </data>
+  <data name="ModifyContractGoods" xml:space="preserve">
+    <value>修改合同发货数据</value>
+  </data>
+  <data name="DeleteDeliverPlans" xml:space="preserve">
+    <value>撤消发货计划</value>
+  </data>
+  <data name="NewCustomerStorageAndForceFeeSettlement" xml:space="preserve">
+    <value>新增客户仓储力支费结算记录</value>
+  </data>
+  <data name="SearchStorageAndForceFeeSettlements" xml:space="preserve">
+    <value>查询仓储力支费结算记录</value>
+  </data>
+  <data name="SetReceiver" xml:space="preserve">
+    <value>设置收货单位档案</value>
+  </data>
+  <data name="NewReceiver" xml:space="preserve">
+    <value>新增收货单位档案</value>
+  </data>
+  <data name="NewReceiverDistance" xml:space="preserve">
+    <value>新增收货单位距离记录</value>
+  </data>
+  <data name="ModifyReceiverDistance" xml:space="preserve">
+    <value>修改收货单位距离记录</value>
+  </data>
+  <data name="ModifyReceiver" xml:space="preserve">
+    <value>修改收货单位档案</value>
+  </data>
+  <data name="SearchStockEndDifferences" xml:space="preserve">
+    <value>查询库存尾差</value>
+  </data>
+  <data name="EnterStockEndDifferences" xml:space="preserve">
+    <value>尾差入库</value>
+  </data>
+  <data name="OutStockEndDifferences" xml:space="preserve">
+    <value>尾差出库</value>
+  </data>
+  <data name="NewNotDeliverCanPlan" xml:space="preserve">
+    <value>录入罐直发货计划</value>
+  </data>
+  <data name="ModifyNotDeliverCanPlan" xml:space="preserve">
+    <value>修改罐直发货计划</value>
+  </data>
+  <data name="DispatchNotDeliverCanPlan" xml:space="preserve">
+    <value>调度罐直发货计划</value>
+  </data>
+  <data name="ApproveDeliverPlans" xml:space="preserve">
+    <value>审批发货计划</value>
+  </data>
+  <data name="SearchDeliverBills" xml:space="preserve">
+    <value>查询送货单</value>
+  </data>
+  <data name="CustomerTransportChargesStatement" xml:space="preserve">
+    <value>运费对帐单</value>
+  </data>
+  <data name="SelectCarNo" xml:space="preserve">
+    <value>选择车号</value>
+  </data>
+  <data name="ModifyCustomerForceFeePrice" xml:space="preserve">
+    <value>修改客户力支费价格</value>
+  </data>
+  <data name="ModifyCustomerStorageFeePrice" xml:space="preserve">
+    <value>修改客户仓储费价格</value>
+  </data>
+  <data name="NewCustomerForceFeePrice" xml:space="preserve">
+    <value>新增客户力支费价格</value>
+  </data>
+  <data name="NewCustomerStorageFeePrice" xml:space="preserve">
+    <value>新增客户仓储仓储费结算记录</value>
+  </data>
+  <data name="ModifyRemark" xml:space="preserve">
+    <value>修改备注</value>
+  </data>
+  <data name="CustomGrid" xml:space="preserve">
+    <value>定制表格</value>
+  </data>
+  <data name="SearchContracts" xml:space="preserve">
+    <value>查询合同审批信息</value>
+  </data>
+  <data name="StatOrganGrossProfitRate" xml:space="preserve">
+    <value>统计办事处毛利率</value>
+  </data>
+  <data name="SyntheticalSearch" xml:space="preserve">
+    <value>综合查询</value>
+  </data>
+  <data name="ModifyData" xml:space="preserve">
+    <value>修改数据</value>
+  </data>
+  <data name="NewDeliverBillCarrierTransportPrice" xml:space="preserve">
+    <value>录入特殊承运价格</value>
+  </data>
+  <data name="SearchDeliverBillCarrierTransportPrices" xml:space="preserve">
+    <value>查询特殊承运价格记录</value>
+  </data>
+</root>

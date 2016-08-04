@@ -1,0 +1,1077 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Address" xml:space="preserve">
+    <value>街道门牌号码</value>
+  </data>
+  <data name="ArrivalDate" xml:space="preserve">
+    <value>货到日期</value>
+  </data>
+  <data name="BatchNo" xml:space="preserve">
+    <value>批次号</value>
+  </data>
+  <data name="Brand" xml:space="preserve">
+    <value>品牌</value>
+  </data>
+  <data name="CarLicenseNo" xml:space="preserve">
+    <value>车牌号码</value>
+  </data>
+  <data name="CityName" xml:space="preserve">
+    <value>市/县/区/镇</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>联系人姓名</value>
+  </data>
+  <data name="ContactTel" xml:space="preserve">
+    <value>联系人电话</value>
+  </data>
+  <data name="CustomerName" xml:space="preserve">
+    <value>客户名称</value>
+  </data>
+  <data name="DeliverType" xml:space="preserve">
+    <value>出库类别</value>
+  </data>
+  <data name="DeliveryOrderNo" xml:space="preserve">
+    <value>交货单号</value>
+  </data>
+  <data name="DeliveryWarehouse" xml:space="preserve">
+    <value>发货仓库</value>
+  </data>
+  <data name="DriverName" xml:space="preserve">
+    <value>司机姓名</value>
+  </data>
+  <data name="DriverTel" xml:space="preserve">
+    <value>司机手机</value>
+  </data>
+  <data name="GoodsNo" xml:space="preserve">
+    <value>货物编号</value>
+  </data>
+  <data name="Grade" xml:space="preserve">
+    <value>等级</value>
+  </data>
+  <data name="GrammeWeight" xml:space="preserve">
+    <value>克重</value>
+  </data>
+  <data name="IndentifyCode" xml:space="preserve">
+    <value>验证码</value>
+  </data>
+  <data name="LadingType" xml:space="preserve">
+    <value>提货方式</value>
+  </data>
+  <data name="OrderNo" xml:space="preserve">
+    <value>订单编号</value>
+  </data>
+  <data name="PackingSpecification" xml:space="preserve">
+    <value>包装</value>
+  </data>
+  <data name="PayerName" xml:space="preserve">
+    <value>付款单位名称</value>
+  </data>
+  <data name="Pieces" xml:space="preserve">
+    <value>件数</value>
+  </data>
+  <data name="PieceWeight" xml:space="preserve">
+    <value>件重</value>
+  </data>
+  <data name="Specification" xml:space="preserve">
+    <value>规格型号</value>
+  </data>
+  <data name="StateName" xml:space="preserve">
+    <value>省/州/自治区/直辖市</value>
+  </data>
+  <data name="TrailerLicenseNo" xml:space="preserve">
+    <value>挂车号码</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>重量</value>
+  </data>
+  <data name="CountryName" xml:space="preserve">
+    <value>国家</value>
+  </data>
+  <data name="OrganId" xml:space="preserve">
+    <value>组织部门编码</value>
+  </data>
+  <data name="OrganName" xml:space="preserve">
+    <value>组织部门名称</value>
+  </data>
+  <data name="OrganType" xml:space="preserve">
+    <value>组织部门类别</value>
+  </data>
+  <data name="ParentOrgan" xml:space="preserve">
+    <value>上级组织部门</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>邮政编码</value>
+  </data>
+  <data name="Remark" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="PositionId" xml:space="preserve">
+    <value>岗位编码</value>
+  </data>
+  <data name="PositionName" xml:space="preserve">
+    <value>岗位名称</value>
+  </data>
+  <data name="BossName" xml:space="preserve">
+    <value>上司姓名</value>
+  </data>
+  <data name="EMail" xml:space="preserve">
+    <value>电子邮件</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>传真</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>名</value>
+  </data>
+  <data name="IsOrganLeader" xml:space="preserve">
+    <value>是否为组织部门负责人</value>
+  </data>
+  <data name="IsOrganManager" xml:space="preserve">
+    <value>是否为组织部门管理人员</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>姓</value>
+  </data>
+  <data name="MobileTel" xml:space="preserve">
+    <value>手机</value>
+  </data>
+  <data name="Tel" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="QQ" xml:space="preserve">
+    <value>QQ</value>
+  </data>
+  <data name="Sex" xml:space="preserve">
+    <value>性别</value>
+  </data>
+  <data name="StaffId" xml:space="preserve">
+    <value>员工编码</value>
+  </data>
+  <data name="TelExt" xml:space="preserve">
+    <value>分机</value>
+  </data>
+  <data name="StaffName" xml:space="preserve">
+    <value>员工姓名</value>
+  </data>
+  <data name="IsCancel" xml:space="preserve">
+    <value>是否注销</value>
+  </data>
+  <data name="GroupId" xml:space="preserve">
+    <value>组编码</value>
+  </data>
+  <data name="GroupName" xml:space="preserve">
+    <value>组名称</value>
+  </data>
+  <data name="AllowApprove" xml:space="preserve">
+    <value>允许审批</value>
+  </data>
+  <data name="AllowCancel" xml:space="preserve">
+    <value>允许注销/取消</value>
+  </data>
+  <data name="AllowDelete" xml:space="preserve">
+    <value>允许删除</value>
+  </data>
+  <data name="AllowDispatch" xml:space="preserve">
+    <value>允许调度</value>
+  </data>
+  <data name="AllowExport" xml:space="preserve">
+    <value>允许导出</value>
+  </data>
+  <data name="AllowImport" xml:space="preserve">
+    <value>允许导入</value>
+  </data>
+  <data name="AllowModify" xml:space="preserve">
+    <value>允许修改</value>
+  </data>
+  <data name="AllowNew" xml:space="preserve">
+    <value>允许新增</value>
+  </data>
+  <data name="AllowPrint" xml:space="preserve">
+    <value>允许打印</value>
+  </data>
+  <data name="AllowSearch" xml:space="preserve">
+    <value>允许查询</value>
+  </data>
+  <data name="AllowSubmit" xml:space="preserve">
+    <value>允许提交</value>
+  </data>
+  <data name="AllowOpen" xml:space="preserve">
+    <value>允许打开</value>
+  </data>
+  <data name="FuncId" xml:space="preserve">
+    <value>功能编码</value>
+  </data>
+  <data name="FuncName" xml:space="preserve">
+    <value>功能名称</value>
+  </data>
+  <data name="AccountId" xml:space="preserve">
+    <value>帐号编码</value>
+  </data>
+  <data name="AccountName" xml:space="preserve">
+    <value>帐号名称</value>
+  </data>
+  <data name="AccountPassword" xml:space="preserve">
+    <value>帐号密码</value>
+  </data>
+  <data name="AccountType" xml:space="preserve">
+    <value>帐号类别</value>
+  </data>
+  <data name="AllowDetail" xml:space="preserve">
+    <value>允许查看详细</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>确认密码</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>新密码</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>原密码</value>
+  </data>
+  <data name="AccountOrganName" xml:space="preserve">
+    <value>所属组织部门或客户的名称</value>
+  </data>
+  <data name="AccountStaffName" xml:space="preserve">
+    <value>所属员工或客户联系人的姓名</value>
+  </data>
+  <data name="CustomerId" xml:space="preserve">
+    <value>客户编码</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>记录编码</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="ParentTypeName" xml:space="preserve">
+    <value>父类别名称</value>
+  </data>
+  <data name="UploadFileName" xml:space="preserve">
+    <value>上传文件名</value>
+  </data>
+  <data name="ImportFileExample" xml:space="preserve">
+    <value>导入文件示例</value>
+  </data>
+  <data name="DestCity" xml:space="preserve">
+    <value>讫点市/县/区/镇</value>
+  </data>
+  <data name="DestCountry" xml:space="preserve">
+    <value>讫点国家</value>
+  </data>
+  <data name="DestProvince" xml:space="preserve">
+    <value>讫点省/州/自治区/直辖市</value>
+  </data>
+  <data name="StartCity" xml:space="preserve">
+    <value>起点市/县/区/镇</value>
+  </data>
+  <data name="StartCountry" xml:space="preserve">
+    <value>起点国家</value>
+  </data>
+  <data name="StartProvince" xml:space="preserve">
+    <value>起点省/州/自治区/直辖市</value>
+  </data>
+  <data name="TypeName" xml:space="preserve">
+    <value>类别名称</value>
+  </data>
+  <data name="TypeId" xml:space="preserve">
+    <value>类别编码</value>
+  </data>
+  <data name="GoodsName" xml:space="preserve">
+    <value>货物名称</value>
+  </data>
+  <data name="IsLease" xml:space="preserve">
+    <value>是否租借</value>
+  </data>
+  <data name="BusinessType" xml:space="preserve">
+    <value>经营性质</value>
+  </data>
+  <data name="CarrierId" xml:space="preserve">
+    <value>承运单位编码</value>
+  </data>
+  <data name="CarrierName" xml:space="preserve">
+    <value>承运单位名称</value>
+  </data>
+  <data name="PaymentType" xml:space="preserve">
+    <value>结算方式</value>
+  </data>
+  <data name="TransportPrice" xml:space="preserve">
+    <value>单价</value>
+  </data>
+  <data name="CarNo" xml:space="preserve">
+    <value>车号</value>
+  </data>
+  <data name="CarryingCapacity" xml:space="preserve">
+    <value>载重</value>
+  </data>
+  <data name="TrailerNo" xml:space="preserve">
+    <value>挂号</value>
+  </data>
+  <data name="HomeTel" xml:space="preserve">
+    <value>住宅电话</value>
+  </data>
+  <data name="LicenseNo" xml:space="preserve">
+    <value>驾驶员证号</value>
+  </data>
+  <data name="MaxTunnages" xml:space="preserve">
+    <value>吨数上限</value>
+  </data>
+  <data name="MinTunnages" xml:space="preserve">
+    <value>吨数下限</value>
+  </data>
+  <data name="OwnOrganName" xml:space="preserve">
+    <value>所属部门或办事处</value>
+  </data>
+  <data name="OwnOrganId" xml:space="preserve">
+    <value>所属部门或办事处编码</value>
+  </data>
+  <data name="GoodsId" xml:space="preserve">
+    <value>货物编码</value>
+  </data>
+  <data name="Piles" xml:space="preserve">
+    <value>垛数</value>
+  </data>
+  <data name="Tunnages" xml:space="preserve">
+    <value>吨数</value>
+  </data>
+  <data name="ArrivalTime" xml:space="preserve">
+    <value>到货时间</value>
+  </data>
+  <data name="ConsignedDeliveryNo" xml:space="preserve">
+    <value>寄库交货单号</value>
+  </data>
+  <data name="DeliveryNo" xml:space="preserve">
+    <value>交货单号</value>
+  </data>
+  <data name="IsConsigning" xml:space="preserve">
+    <value>是否寄库</value>
+  </data>
+  <data name="PlanId" xml:space="preserve">
+    <value>计划编码</value>
+  </data>
+  <data name="ReceiverAddress" xml:space="preserve">
+    <value>收货单位地址</value>
+  </data>
+  <data name="ReceiverCity" xml:space="preserve">
+    <value>收货单位所在市/县/区/镇</value>
+  </data>
+  <data name="ReceiverContact" xml:space="preserve">
+    <value>收货单位联系人</value>
+  </data>
+  <data name="ReceiverContactTel" xml:space="preserve">
+    <value>收货单位联系电话</value>
+  </data>
+  <data name="ReceiverCountry" xml:space="preserve">
+    <value>收货单位所在国家</value>
+  </data>
+  <data name="ReceiverName" xml:space="preserve">
+    <value>收货单位名称</value>
+  </data>
+  <data name="ReceiverProvince" xml:space="preserve">
+    <value>收货单位所在省/州/自治区/直辖市</value>
+  </data>
+  <data name="ReceiveType" xml:space="preserve">
+    <value>收货方式</value>
+  </data>
+  <data name="Warehouse" xml:space="preserve">
+    <value>仓库</value>
+  </data>
+  <data name="PayerId" xml:space="preserve">
+    <value>付款单位编码</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>合计</value>
+  </data>
+  <data name="PlanNo" xml:space="preserve">
+    <value>计划单号</value>
+  </data>
+  <data name="PlanType" xml:space="preserve">
+    <value>计划类别</value>
+  </data>
+  <data name="StopStock" xml:space="preserve">
+    <value>停止发货库存</value>
+  </data>
+  <data name="WarningStock" xml:space="preserve">
+    <value>提醒结算库存</value>
+  </data>
+  <data name="Boxes" xml:space="preserve">
+    <value>箱数</value>
+  </data>
+  <data name="EnterType" xml:space="preserve">
+    <value>入库类别</value>
+  </data>
+  <data name="EnterWarehouseBillId" xml:space="preserve">
+    <value>入库单编码</value>
+  </data>
+  <data name="EnterWarehouseBillNo" xml:space="preserve">
+    <value>入库单号</value>
+  </data>
+  <data name="ForceFee" xml:space="preserve">
+    <value>力支费</value>
+  </data>
+  <data name="HasDrayage" xml:space="preserve">
+    <value>是否有短驳费</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>货位</value>
+  </data>
+  <data name="ProductionDate" xml:space="preserve">
+    <value>生产日期</value>
+  </data>
+  <data name="TenThousands" xml:space="preserve">
+    <value>万只</value>
+  </data>
+  <data name="Conditions" xml:space="preserve">
+    <value>处理条件</value>
+  </data>
+  <data name="DisposerId" xml:space="preserve">
+    <value>处理人编码</value>
+  </data>
+  <data name="DisposerName" xml:space="preserve">
+    <value>处理人姓名</value>
+  </data>
+  <data name="StepId" xml:space="preserve">
+    <value>步骤编码</value>
+  </data>
+  <data name="StepName" xml:space="preserve">
+    <value>步骤名称</value>
+  </data>
+  <data name="StepNum" xml:space="preserve">
+    <value>步骤序号</value>
+  </data>
+  <data name="ConditionExpression" xml:space="preserve">
+    <value>条件组合表达式</value>
+  </data>
+  <data name="ConditionId" xml:space="preserve">
+    <value>条件编码</value>
+  </data>
+  <data name="CompareOperator" xml:space="preserve">
+    <value>运算符</value>
+  </data>
+  <data name="FieldName" xml:space="preserve">
+    <value>条件名</value>
+  </data>
+  <data name="FieldValue" xml:space="preserve">
+    <value>条件值</value>
+  </data>
+  <data name="ConditionNum" xml:space="preserve">
+    <value>条件序号</value>
+  </data>
+  <data name="ApproveComment" xml:space="preserve">
+    <value>审批意见</value>
+  </data>
+  <data name="ApproveResult" xml:space="preserve">
+    <value>审批结论</value>
+  </data>
+  <data name="ApproverName" xml:space="preserve">
+    <value>审批人</value>
+  </data>
+  <data name="KM" xml:space="preserve">
+    <value>公里数</value>
+  </data>
+  <data name="PieceWeightOrConvertCoefficient" xml:space="preserve">
+    <value>件重/折算系数</value>
+  </data>
+  <data name="ConvertCoefficient" xml:space="preserve">
+    <value>折算系数</value>
+  </data>
+  <data name="ShipmentNo" xml:space="preserve">
+    <value>装运单号</value>
+  </data>
+  <data name="DestPlace" xml:space="preserve">
+    <value>讫点</value>
+  </data>
+  <data name="StartPlace" xml:space="preserve">
+    <value>起点</value>
+  </data>
+  <data name="EndTime" xml:space="preserve">
+    <value>截止时间</value>
+  </data>
+  <data name="StartTime" xml:space="preserve">
+    <value>起始时间</value>
+  </data>
+  <data name="CreateTime" xml:space="preserve">
+    <value>录入时间</value>
+  </data>
+  <data name="DispatchBillId" xml:space="preserve">
+    <value>调度单编码</value>
+  </data>
+  <data name="DispatchTime" xml:space="preserve">
+    <value>调度时间</value>
+  </data>
+  <data name="ActualTransportPrice" xml:space="preserve">
+    <value>实际单价</value>
+  </data>
+  <data name="AgreementTransportPrice" xml:space="preserve">
+    <value>协议单价</value>
+  </data>
+  <data name="TotalTransportCharges" xml:space="preserve">
+    <value>累计运费</value>
+  </data>
+  <data name="TransportCharges" xml:space="preserve">
+    <value>运费</value>
+  </data>
+  <data name="ActualPieces" xml:space="preserve">
+    <value>实发件数</value>
+  </data>
+  <data name="ActualTunnages" xml:space="preserve">
+    <value>实发吨数</value>
+  </data>
+  <data name="ActualPiles" xml:space="preserve">
+    <value>实发垛数</value>
+  </data>
+  <data name="ActualTenThousands" xml:space="preserve">
+    <value>实发万只</value>
+  </data>
+  <data name="SettlementExpression" xml:space="preserve">
+    <value>结算公式</value>
+  </data>
+  <data name="TransportChargeExpression" xml:space="preserve">
+    <value>运费公式</value>
+  </data>
+  <data name="TransportPriceExpression" xml:space="preserve">
+    <value>单价公式</value>
+  </data>
+  <data name="ActualBoxes" xml:space="preserve">
+    <value>实发箱数</value>
+  </data>
+  <data name="DispatchBillNo" xml:space="preserve">
+    <value>调度单号</value>
+  </data>
+  <data name="TotalPiles" xml:space="preserve">
+    <value>累计垛数</value>
+  </data>
+  <data name="TotalTunnages" xml:space="preserve">
+    <value>累计吨数</value>
+  </data>
+  <data name="PiecesOrBoxes" xml:space="preserve">
+    <value>件数/箱数</value>
+  </data>
+  <data name="TotalPackages" xml:space="preserve">
+    <value>累计件数</value>
+  </data>
+  <data name="ShipmentBillNo" xml:space="preserve">
+    <value>出仓单号</value>
+  </data>
+  <data name="ShiptoParty" xml:space="preserve">
+    <value>送达方</value>
+  </data>
+  <data name="ShipmentDate" xml:space="preserve">
+    <value>出货日期</value>
+  </data>
+  <data name="Auditor" xml:space="preserve">
+    <value>审核人</value>
+  </data>
+  <data name="BillMaker" xml:space="preserve">
+    <value>制单人</value>
+  </data>
+  <data name="OutWarehouseBillNo" xml:space="preserve">
+    <value>出库单号</value>
+  </data>
+  <data name="OutWarehouseBillId" xml:space="preserve">
+    <value>出库单编码</value>
+  </data>
+  <data name="OutWarehouseTime" xml:space="preserve">
+    <value>出库日期</value>
+  </data>
+  <data name="StorageFeePrice" xml:space="preserve">
+    <value>仓储费价格</value>
+  </data>
+  <data name="UnloadingForceFeePrice" xml:space="preserve">
+    <value>下力支费价格</value>
+  </data>
+  <data name="LoadingForceFeePrice" xml:space="preserve">
+    <value>上力支费价格</value>
+  </data>
+  <data name="Drawer" xml:space="preserve">
+    <value>开票人</value>
+  </data>
+  <data name="OutWarehouseUnit" xml:space="preserve">
+    <value>出库单位</value>
+  </data>
+  <data name="ReceiverSign" xml:space="preserve">
+    <value>收货单位签收</value>
+  </data>
+  <data name="DeliverBillNo" xml:space="preserve">
+    <value>送货单号</value>
+  </data>
+  <data name="DeliverDate" xml:space="preserve">
+    <value>发货日期</value>
+  </data>
+  <data name="ReturnTime" xml:space="preserve">
+    <value>回单时间</value>
+  </data>
+  <data name="DamageInfo" xml:space="preserve">
+    <value>货损情况</value>
+  </data>
+  <data name="ContractNo" xml:space="preserve">
+    <value>合同号</value>
+  </data>
+  <data name="PrepayTransportCharges" xml:space="preserve">
+    <value>预付运费</value>
+  </data>
+  <data name="ResidualTransportCharges" xml:space="preserve">
+    <value>剩余运费</value>
+  </data>
+  <data name="ShipmentTime" xml:space="preserve">
+    <value>装运时间</value>
+  </data>
+  <data name="ContractId" xml:space="preserve">
+    <value>合同编码</value>
+  </data>
+  <data name="PackingStyle" xml:space="preserve">
+    <value>包装样式</value>
+  </data>
+  <data name="TotalTenThousands" xml:space="preserve">
+    <value>累计万只</value>
+  </data>
+  <data name="OverPercentage" xml:space="preserve">
+    <value>超出百分比</value>
+  </data>
+  <data name="ApprovedTransportPrice" xml:space="preserve">
+    <value>审批单价</value>
+  </data>
+  <data name="ActualTransportCharges" xml:space="preserve">
+    <value>实际运费</value>
+  </data>
+  <data name="ApprovedTransportCharges" xml:space="preserve">
+    <value>审批运费</value>
+  </data>
+  <data name="LimitedTransportPrice" xml:space="preserve">
+    <value>限制单价</value>
+  </data>
+  <data name="ReceiptReceived" xml:space="preserve">
+    <value>已回单</value>
+  </data>
+  <data name="ReverseAmount" xml:space="preserve">
+    <value>冲帐金额</value>
+  </data>
+  <data name="ReverserName" xml:space="preserve">
+    <value>冲帐人姓名</value>
+  </data>
+  <data name="ReverseTime" xml:space="preserve">
+    <value>冲帐时间</value>
+  </data>
+  <data name="ReversedAmount" xml:space="preserve">
+    <value>已冲帐金额</value>
+  </data>
+  <data name="ReverseId" xml:space="preserve">
+    <value>冲帐记录编码</value>
+  </data>
+  <data name="TransactorName" xml:space="preserve">
+    <value>经办人</value>
+  </data>
+  <data name="TotalApproveTransportCharges" xml:space="preserve">
+    <value>累计审批运费</value>
+  </data>
+  <data name="TransportChargesBalance" xml:space="preserve">
+    <value>运费差额</value>
+  </data>
+  <data name="FineAmount" xml:space="preserve">
+    <value>罚款金额</value>
+  </data>
+  <data name="EnterWarehouseTime" xml:space="preserve">
+    <value>入库时间</value>
+  </data>
+  <data name="MoveWarehouseBillId" xml:space="preserve">
+    <value>移库单编码</value>
+  </data>
+  <data name="MoveWarehouseBillNo" xml:space="preserve">
+    <value>移库单号</value>
+  </data>
+  <data name="NewLocation" xml:space="preserve">
+    <value>移入货位</value>
+  </data>
+  <data name="NewPieces" xml:space="preserve">
+    <value>移入件数</value>
+  </data>
+  <data name="NewTunnages" xml:space="preserve">
+    <value>移入吨数</value>
+  </data>
+  <data name="MoveWarehouseTime" xml:space="preserve">
+    <value>移库日期</value>
+  </data>
+  <data name="BalanceTunnages" xml:space="preserve">
+    <value>结存吨数</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="DeliverEnterWarehouseForceFee" xml:space="preserve">
+    <value>移仓入库力支费</value>
+  </data>
+  <data name="DeliverOutWarehouseForceFee" xml:space="preserve">
+    <value>发货出库力支费</value>
+  </data>
+  <data name="StorageFee" xml:space="preserve">
+    <value>仓储费</value>
+  </data>
+  <data name="TimeSpan" xml:space="preserve">
+    <value>期间</value>
+  </data>
+  <data name="BalancePieces" xml:space="preserve">
+    <value>结存件数</value>
+  </data>
+  <data name="InvoiceNo" xml:space="preserve">
+    <value>发票号码</value>
+  </data>
+  <data name="AllowStatementWhenConsignedDeliverPlanNotCompleted" xml:space="preserve">
+    <value>寄库计划未发完是否结算</value>
+  </data>
+  <data name="CarpoolFee" xml:space="preserve">
+    <value>拼车费</value>
+  </data>
+  <data name="MaxPiles" xml:space="preserve">
+    <value>垛数上限</value>
+  </data>
+  <data name="MinPiles" xml:space="preserve">
+    <value>垛数下限</value>
+  </data>
+  <data name="MaxTunnagesOrPiles" xml:space="preserve">
+    <value>吨数(垛数)上限</value>
+  </data>
+  <data name="MinTunnagesOrPiles" xml:space="preserve">
+    <value>吨数(垛数)下限</value>
+  </data>
+  <data name="InvoiceType" xml:space="preserve">
+    <value>发票种类</value>
+  </data>
+  <data name="InvoiceAmount" xml:space="preserve">
+    <value>发票金额</value>
+  </data>
+  <data name="DeliverBillId" xml:space="preserve">
+    <value>送货单编码</value>
+  </data>
+  <data name="CustomerTransportChargesSettlementId" xml:space="preserve">
+    <value>结算记录编码</value>
+  </data>
+  <data name="InvoiceTime" xml:space="preserve">
+    <value>开票时间</value>
+  </data>
+  <data name="DeliverBillReceiptReceived" xml:space="preserve">
+    <value>送货单回单已收</value>
+  </data>
+  <data name="SettlementAmount" xml:space="preserve">
+    <value>结算金额</value>
+  </data>
+  <data name="CarrierTransportChargesSettlementId" xml:space="preserve">
+    <value>结算记录编码</value>
+  </data>
+  <data name="SettlementTime" xml:space="preserve">
+    <value>结算时间</value>
+  </data>
+  <data name="TotalTransportChargesDifference" xml:space="preserve">
+    <value>累计价差</value>
+  </data>
+  <data name="JoinIn" xml:space="preserve">
+    <value>加盟</value>
+  </data>
+  <data name="Prestowage" xml:space="preserve">
+    <value>配载</value>
+  </data>
+  <data name="SelfSupport" xml:space="preserve">
+    <value>自营</value>
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>小计</value>
+  </data>
+  <data name="TotalGrossProfitRate" xml:space="preserve">
+    <value>累计毛利率</value>
+  </data>
+  <data name="FactpaymentAmount" xml:space="preserve">
+    <value>实付金额</value>
+  </data>
+  <data name="WithholdAmount" xml:space="preserve">
+    <value>扣款金额</value>
+  </data>
+  <data name="FineTime" xml:space="preserve">
+    <value>罚款时间</value>
+  </data>
+  <data name="ResidualReverseAmount" xml:space="preserve">
+    <value>剩余冲帐金额</value>
+  </data>
+  <data name="CustomerFullName" xml:space="preserve">
+    <value>客户全称</value>
+  </data>
+  <data name="GrossWeightRate" xml:space="preserve">
+    <value>毛重率</value>
+  </data>
+  <data name="CarType" xml:space="preserve">
+    <value>车型</value>
+  </data>
+  <data name="ValuationMode" xml:space="preserve">
+    <value>计价模式</value>
+  </data>
+  <data name="IsInstalment" xml:space="preserve">
+    <value>是否分期发货</value>
+  </data>
+  <data name="OriginalContractNo" xml:space="preserve">
+    <value>原始合同号</value>
+  </data>
+  <data name="FinalTotal" xml:space="preserve">
+    <value>总计</value>
+  </data>
+  <data name="ReverserId" xml:space="preserve">
+    <value>冲帐人编码</value>
+  </data>
+  <data name="ReceiverId" xml:space="preserve">
+    <value>收货单位编码</value>
+  </data>
+  <data name="PlanState" xml:space="preserve">
+    <value>计划状态</value>
+  </data>
+  <data name="IsDelete" xml:space="preserve">
+    <value>是否删除</value>
+  </data>
+  <data name="ApproveTime" xml:space="preserve">
+    <value>审批时间</value>
+  </data>
+  <data name="DispatchedTransportCharges" xml:space="preserve">
+    <value>调度运费</value>
+  </data>
+  <data name="DispatchedTransportPrice" xml:space="preserve">
+    <value>调度单价</value>
+  </data>
+  <data name="PageCount" xml:space="preserve">
+    <value>共{0}页</value>
+  </data>
+  <data name="PageNo" xml:space="preserve">
+    <value>第{0}页</value>
+  </data>
+  <data name="RiverCrossingCharges" xml:space="preserve">
+    <value>过江费</value>
+  </data>
+  <data name="BalancePiles" xml:space="preserve">
+    <value>结存垛数</value>
+  </data>
+  <data name="BalanceTenThousands" xml:space="preserve">
+    <value>结存万只</value>
+  </data>
+  <data name="NewPiles" xml:space="preserve">
+    <value>移入垛数</value>
+  </data>
+  <data name="NewTenThousands" xml:space="preserve">
+    <value>移入万只</value>
+  </data>
+  <data name="GrossProfitRate" xml:space="preserve">
+    <value>毛利率</value>
+  </data>
+  <data name="TransportChargesDifference" xml:space="preserve">
+    <value>价差</value>
+  </data>
+  <data name="BeginningBalance" xml:space="preserve">
+    <value>期初结存</value>
+  </data>
+  <data name="EndingBalance" xml:space="preserve">
+    <value>期末结存</value>
+  </data>
+  <data name="TotalAllocateEnterWarehouse" xml:space="preserve">
+    <value>总计划拨入库</value>
+  </data>
+  <data name="TotalAllocateOutWarehouse" xml:space="preserve">
+    <value>总计划拨出库</value>
+  </data>
+  <data name="TotalEnterWarehouse" xml:space="preserve">
+    <value>总计入库</value>
+  </data>
+  <data name="TotalOutWarehouse" xml:space="preserve">
+    <value>总计出库</value>
+  </data>
+  <data name="Balance" xml:space="preserve">
+    <value>结存</value>
+  </data>
+  <data name="TotalAllocateEnterWarehouseTunnages" xml:space="preserve">
+    <value>总计划拨入库吨数</value>
+  </data>
+  <data name="TotalAllocateOutWarehouseTunnages" xml:space="preserve">
+    <value>总计划拨出库吨数</value>
+  </data>
+  <data name="TotalDeliverEnterWarehouse" xml:space="preserve">
+    <value>总计移仓入库</value>
+  </data>
+  <data name="TotalDeliverOutWarehouse" xml:space="preserve">
+    <value>总计发货出库</value>
+  </data>
+  <data name="Separator1" xml:space="preserve">
+    <value>~</value>
+  </data>
+  <data name="ShipmentBillGoodsIds" xml:space="preserve">
+    <value>出仓单货物编码</value>
+  </data>
+  <data name="IsShow" xml:space="preserve">
+    <value>是否显示</value>
+  </data>
+  <data name="ApproveState" xml:space="preserve">
+    <value>审批状态</value>
+  </data>
+  <data name="TotalCarrierTransportCharges" xml:space="preserve">
+    <value>累计承运运费</value>
+  </data>
+  <data name="TotalCustomerTransportCharges" xml:space="preserve">
+    <value>累计结算运费</value>
+  </data>
+  <data name="OldLocation" xml:space="preserve">
+    <value>原货位</value>
+  </data>
+  <data name="OldPieces" xml:space="preserve">
+    <value>原件数</value>
+  </data>
+  <data name="OldPiles" xml:space="preserve">
+    <value>原垛数</value>
+  </data>
+  <data name="OldTenThousands" xml:space="preserve">
+    <value>原万只</value>
+  </data>
+  <data name="OldTunnages" xml:space="preserve">
+    <value>原吨数</value>
+  </data>
+  <data name="CarrierTransportCharges" xml:space="preserve">
+    <value>承运运费</value>
+  </data>
+  <data name="CustomerTransportCharges" xml:space="preserve">
+    <value>结算运费</value>
+  </data>
+  <data name="IsReceiptReceived" xml:space="preserve">
+    <value>是否回单</value>
+  </data>
+  <data name="IsCustomerTransportChargesSettled" xml:space="preserve">
+    <value>客户运费是否结算</value>
+  </data>
+  <data name="IsCarrierTransportChargesSettled" xml:space="preserve">
+    <value>承运运费是否结算</value>
+  </data>
+  <data name="IsContractReversed" xml:space="preserve">
+    <value>合同是否冲帐</value>
+  </data>
+  <data name="ShipmentBillId" xml:space="preserve">
+    <value>出仓单编码</value>
+  </data>
+  <data name="LimitedTransportCharges" xml:space="preserve">
+    <value>限制总价</value>
+  </data>
+  <data name="DeliverBillCarrierTransportCharges" xml:space="preserve">
+    <value>特殊承运运费</value>
+  </data>
+  <data name="DeliverBillCarrierTransportPrice" xml:space="preserve">
+    <value>特殊承运单价</value>
+  </data>
+  <data name="AllocateOutWarehouseForceFee" xml:space="preserve">
+    <value>划拨出库力支费</value>
+  </data>
+</root>
